@@ -75,7 +75,7 @@
 ### ☕ Support My Work
 
 <p align="center">
-  <a href="https://www.buymeacoffee.com/ojasshukla" target="_blank">
+  <a href="https://buymeacoffee.com/ojasshuklav" target="_blank">
     <img src="https://img.shields.io/badge/-Buy%20me%20a%20coffee-ea4aaa?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Buy Me A Coffee"/>
   </a>
 </p>
