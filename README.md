@@ -1,37 +1,37 @@
-<h1 align="center">Hi 👋, I'm Ojas Shukla</h1>
-<h3 align="center">🚀 Data Engineer | GCP & AWS | Kafka • dbt • DuckDB | Pythonista | OSS Contributor</h3>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=ojasshukla01&label=Profile%20views&color=0e75b6&style=flat" alt="ojasshukla01" />
-</p>
+# 👋 Hi, I'm Ojas Shukla
 
----
+🚀 **Data Engineer | GCP & AWS | Kafka • dbt • DuckDB | Pythonista | OSS Contributor**
 
-### 💡 About Me
-
-- 🔭 Currently working on: **OpenCompliance ESG**, **Unified Immigration Data Platform**
-- 🧪 Exploring: **streaming data engineering**, **data contracts**, **low-latency BI**, **AI/ML**
-- 💼 Open to opportunities in data & analytics engineering (contract or full-time)
-- 📚 I write modular pipelines using `Python`, `dbt`, `DuckDB`, `Airflow`, `GCP`
-- 🎯 Actively contributing to **open-source data engineering**
-- 📫 Reach me at: ojasshukla01@gmail.com
+[![Profile Views](https://komarev.com/ghpvc/?username=ojasshukla01&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/ojasshukla01)
 
 ---
 
-### 🛠️ My Tech Toolbox
+## 💡 About Me
+
+- 🔭 Currently working on: **OpenCompliance ESG**, **Lakehouse360**, **LLM Learning Path Generator**
+- 🧪 Exploring: **Streaming Data Engineering**, **Data Contracts**, **Low-Latency BI**, **AI/ML**
+- 💼 Open to opportunities in Data & Analytics Engineering (Contract or Full-Time)
+- 📚 Building modular pipelines using `Python`, `dbt`, `DuckDB`, `Airflow`, `GCP`
+- 🎯 Actively contributing to **Open-Source Data Engineering**
+- 📫 Reach me at: [ojasshukla01@gmail.com](mailto:ojasshukla01@gmail.com)
+
+---
+
+## 🛠️ My Tech Toolbox
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" width="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apacheairflow/apacheairflow-original.svg" width="40" />    
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg" width="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apachekafka/apachekafka-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" width="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40"/>
@@ -40,7 +40,7 @@
 
 ---
 
-### 📈 GitHub Stats
+## 📈 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ojasshukla01&show_icons=true&theme=radical" alt="Ojas's GitHub Stats" />
@@ -50,20 +50,22 @@
 
 ---
 
-### 🧠 Featured Projects
+## 🧠 Featured Projects
 
-| Project | Description | Tech |
-|--------|-------------|------|
-| [OpenCompliance ESG](https://github.com/ojasshukla01/opencompliance-esg) | ESG data pipeline + live dashboard + PDF reporting | Streamlit, FastAPI, DuckDB |
-| [SOP Generator Web App](https://github.com/ojasshukla01/sop-generator-frontend) | End-to-end SOP auto-generation using GPT + FastAPI + React | FastAPI, React, Tailwind |
-| [Data Engineering Case Studies](https://github.com/ojasshukla01/data-engineering-case-studies) | Real-world case studies for batch + streaming pipelines | dbt, GCP, BigQuery |
-| [Health BI Dashboard](https://github.com/ojasshukla01/health-analytics-bi-dashboard) | PowerBI dashboard for healthcare KPIs | PowerBI, Pandas |
-| [Web-based IDS](https://github.com/ojasshukla01/web-bases-analysis-intrusion-detection-system) | Web-based intrusion detection system | Flask, SQLi |
-| [SQL Injection Simulator](https://github.com/ojasshukla01/sql-injection) | Simulated SQLi vulnerabilities & prevention | Flask, SQLite |
+| Project | Description | Tech Stack |
+|---------|-------------|------------|
+| [OpenCompliance ESG](https://github.com/ojasshukla01/opencompliance-esg) | ESG data pipeline with live dashboard and PDF reporting | Streamlit, FastAPI, DuckDB |
+| [Lakehouse360](https://github.com/ojasshukla01/lakehouse360) | End-to-end data engineering & analytics platform | Python, DuckDB, Streamlit |
+| [LLM Learning Path Generator](https://github.com/ojasshukla01/llm-learning-path-generator) | Personalized learning roadmap generator using LLMs | Streamlit, LangChain, DuckDB |
+| [Data Engineering Case Studies](https://github.com/ojasshukla01/data-engineering-case-studies) | Real-world case studies for batch and streaming pipelines | dbt, GCP, BigQuery |
+| [Health BI Dashboard](https://github.com/ojasshukla01/health-analytics-bi-dashboard) | Power BI dashboard for healthcare KPIs | Power BI, Pandas |
+| [Ojas Portfolio](https://github.com/ojasshukla01/ojas-portfolio) | Personal portfolio website showcasing projects and skills | React, Tailwind CSS |
+| [BharatStream SQL](https://github.com/ojasshukla01/bharatstream-sql) | SQL-based backend for BharatStream with filters and analytics | SQL, Pandas, Streamlit |
+| [Streaming Platform](https://github.com/ojasshukla01/streaming-platform) | Modern video streaming platform with live TV and movie filters | React, Tailwind CSS, JSON APIs |
 
 ---
 
-### 🌐 Connect with Me
+## 🌐 Connect with Me
 
 <p align="center">
   <a href="https://www.linkedin.com/in/ojasshukla01"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -74,7 +76,7 @@
 
 ---
 
-### ☕ Support My Work
+## ☕ Support My Work
 
 <p align="center">
   <a href="https://buymeacoffee.com/ojasshuklav" target="_blank">
