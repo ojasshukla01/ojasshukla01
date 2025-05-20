@@ -1,3 +1,4 @@
+
 <div align="center">
 
 # 👋 Hi, I'm Ojas Shukla
@@ -5,6 +6,10 @@
 🚀 **Data Engineer | GCP & AWS | Kafka • dbt • DuckDB | Pythonista | OSS Contributor**
 
 [![Profile Views](https://komarev.com/ghpvc/?username=ojasshukla01&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/ojasshukla01)
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&center=true&width=435&lines=Data+Engineer+%7C+GCP+%2F+AWS+%2F+Kafka+%2F+dbt;OSS+Contributor+%7C+Python+Lover+%7C+Streaming+Pipelines;Welcome+to+my+GitHub+space!+%F0%9F%91%8B" />
+</p>
 
 </div>
 
@@ -51,6 +56,14 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojasshukla01&layout=compact&theme=radical" alt="Top Languages" />
 </p>
 
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=ojasshukla01&theme=algolia&no-frame=true&margin-w=10" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ojasshukla01&theme=dracula&area=true&hide_border=true" />
+</p>
+
 ---
 
 ## 🧠 Featured Projects
@@ -65,6 +78,15 @@
 | [Ojas Portfolio](https://github.com/ojasshukla01/ojas-portfolio) | Personal portfolio website showcasing projects and skills | React, Tailwind CSS |
 | [BharatStream SQL](https://github.com/ojasshukla01/bharatstream-sql) | SQL-based backend for BharatStream with filters and analytics | SQL, Pandas, Streamlit |
 | [Streaming Platform](https://github.com/ojasshukla01/streaming-platform) | Modern video streaming platform with live TV and movie filters | React, Tailwind CSS, JSON APIs |
+
+---
+
+## 💬 Fun Facts About Me
+
+- 🧠 I love designing scalable data pipelines.
+- 🎯 I'm obsessed with clean code and reproducible analytics.
+- 🧘 I enjoy writing, swimming, and dissecting chess endgames.
+- 🤖 Currently experimenting with LLMs and open data.
 
 ---
 
