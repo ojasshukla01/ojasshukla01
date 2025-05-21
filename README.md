@@ -7,10 +7,6 @@
 
 [![Profile Views](https://komarev.com/ghpvc/?username=ojasshukla01&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/ojasshukla01)
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&center=true&width=435&lines=Data+Engineer+%7C+GCP+%2F+AWS+%2F+Kafka+%2F+dbt;OSS+Contributor+%7C+Python+Lover+%7C+Streaming+Pipelines;Welcome+to+my+GitHub+space!+%F0%9F%91%8B" />
-</p>
-
 </div>
 
 ---
@@ -56,14 +52,6 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojasshukla01&layout=compact&theme=radical" alt="Top Languages" />
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ojasshukla01&theme=algolia&no-frame=true&margin-w=10" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ojasshukla01&theme=dracula&area=true&hide_border=true" />
-</p>
-
 ---
 
 ## 🧠 Featured Projects
@@ -85,7 +73,7 @@
 
 - 🧠 I love designing scalable data pipelines.
 - 🎯 I'm obsessed with clean code and reproducible analytics.
-- 🧘 I enjoy writing, swimming, and dissecting chess endgames.
+- 🧘 I enjoy writing, swimming, and playing Dota 2.
 - 🤖 Currently experimenting with LLMs and open data.
 
 ---
