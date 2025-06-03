@@ -44,12 +44,10 @@
 
 ---
 
-## 📈 GitHub Stats
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ojasshukla01&show_icons=true&theme=radical" alt="Ojas's GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ojasshukla01&theme=radical" alt="GitHub Streak" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojasshukla01&layout=compact&theme=radical" alt="Top Languages" />
+    <img src="https://github-readme-stats.vercel.app/api?username=ojasshukla01&show_icons=true&theme=radical&cache_seconds=1800" alt="Ojas's GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ojasshukla01&theme=radical&cache_seconds=1800" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojasshukla01&layout=compact&theme=radical&cache_seconds=1800" alt="Top Languages" />
 </p>
 
 ---
