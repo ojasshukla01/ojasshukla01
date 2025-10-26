@@ -2,6 +2,8 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=Ojas+Shukla;Senior+Data+Engineer;Cloud-Native+Architect" alt="Typing Animation" />
 
+<br>
+
 <a href="https://ojas-de-portfolio.vercel.app/resume" target="_blank">
   <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000" alt="Portfolio" />
 </a>
@@ -14,6 +16,8 @@
 <a href="mailto:ojasshukla01@gmail.com" target="_blank">
   <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836" alt="Email" />
 </a>
+
+<br><br>
 
 [![Profile Views](https://komarev.com/ghpvc/?username=ojasshukla01&label=Profile%20views&color=0e75b6&style=flat-square)](https://github.com/ojasshukla01)
 
@@ -52,6 +56,8 @@
   <img src="https://img.shields.io/badge/-Scala-DC322F?style=for-the-badge&logo=scala&logoColor=white&labelColor=DC322F" alt="Scala" />
 </a>
 
+<br><br>
+
 ### <img src="https://img.icons8.com/color/24/000000/cloud.png" width="20" height="20" /> Cloud Platforms
 <a href="https://cloud.google.com" target="_blank">
   <img src="https://img.shields.io/badge/-Google%20Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white&labelColor=4285F4" alt="Google Cloud" />
@@ -65,6 +71,8 @@
 <a href="https://snowflake.com" target="_blank">
   <img src="https://img.shields.io/badge/-Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white&labelColor=29B5E8" alt="Snowflake" />
 </a>
+
+<br><br>
 
 ### <img src="https://img.icons8.com/color/24/000000/database.png" width="20" height="20" /> Data Platforms & Tools
 <a href="https://spark.apache.org" target="_blank">
@@ -85,6 +93,8 @@
 <a href="https://getdbt.com" target="_blank">
   <img src="https://img.shields.io/badge/-dbt-FF6944?style=for-the-badge&logo=dbt&logoColor=white&labelColor=FF6944" alt="dbt" />
 </a>
+
+<br><br>
 
 ### <img src="https://img.icons8.com/color/24/000000/settings.png" width="20" height="20" /> DevOps & Infrastructure
 <a href="https://docker.com" target="_blank">
@@ -207,9 +217,13 @@ In-depth technical articles, best practices, tutorials, industry insights on dat
   <img src="https://github-readme-stats.vercel.app/api?username=ojasshukla01&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&custom_title=GitHub%20Statistics" alt="GitHub Stats" />
 </a>
 
+<br><br>
+
 <a href="https://github.com/ojasshukla01">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=ojasshukla01&theme=tokyonight&hide_border=true&custom_title=Contribution%20Streak" alt="GitHub Streak" />
 </a>
+
+<br><br>
 
 <a href="https://github.com/ojasshukla01">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojasshukla01&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&custom_title=Most%20Used%20Languages" alt="Top Languages" />
@@ -227,25 +241,25 @@ In-depth technical articles, best practices, tutorials, industry insights on dat
 <tr>
 <td width="25%" align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/lightbulb.png" width="20" height="20" />
+### <img src="https://img.icons8.com/color/24/000000/lightbulb.png" width="20" height="20" /> Innovation
 *Driving technological advancement through creative problem-solving*
 
 </td>
 <td width="25%" align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/star.png" width="20" height="20" />
+### <img src="https://img.icons8.com/color/24/000000/star.png" width="20" height="20" /> Excellence
 *Maintaining highest standards in code quality and system design*
 
 </td>
 <td width="25%" align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/users.png" width="20" height="20" />
+### <img src="https://img.icons8.com/color/24/000000/users.png" width="20" height="20" /> Collaboration
 *Fostering knowledge sharing and team growth*
 
 </td>
 <td width="25%" align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/trending-up.png" width="20" height="20" />
+### <img src="https://img.icons8.com/color/24/000000/trending-up.png" width="20" height="20" /> Growth
 *Continuous learning and adaptation to emerging technologies*
 
 </td>
@@ -264,19 +278,19 @@ In-depth technical articles, best practices, tutorials, industry insights on dat
 <tr>
 <td width="33%" align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/swimming.png" width="20" height="20" />
+### <img src="https://img.icons8.com/color/24/000000/swimming.png" width="20" height="20" /> Swimming
 *Maintaining physical fitness and mental clarity*
 
 </td>
 <td width="33%" align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/gamepad.png" width="20" height="20" />
+### <img src="https://img.icons8.com/color/24/000000/gamepad.png" width="20" height="20" /> Strategic Gaming
 *Enhancing problem-solving skills through Dota 2*
 
 </td>
 <td width="33%" align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/book.png" width="20" height="20" />
+### <img src="https://img.icons8.com/color/24/000000/book.png" width="20" height="20" /> Continuous Learning
 *Exploring LLMs and emerging data technologies*
 
 </td>
@@ -292,6 +306,8 @@ In-depth technical articles, best practices, tutorials, industry insights on dat
 <div align="center">
 
 I'm always open to discussing data engineering challenges, innovative projects, or collaboration opportunities.
+
+<br>
 
 <a href="https://ojas-de-portfolio.vercel.app/resume" target="_blank">
   <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000" alt="Portfolio" />
@@ -321,25 +337,25 @@ I'm always open to discussing data engineering challenges, innovative projects, 
 <tr>
 <td width="25%" align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/briefcase.png" width="20" height="20" />
+### <img src="https://img.icons8.com/color/24/000000/briefcase.png" width="20" height="20" /> Full-time Roles
 *Senior Data Engineering positions*
 
 </td>
 <td width="25%" align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/handshake.png" width="20" height="20" />
+### <img src="https://img.icons8.com/color/24/000000/handshake.png" width="20" height="20" /> Consulting
 *Contract and project-based work*
 
 </td>
 <td width="25%" align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/pen.png" width="20" height="20" />
+### <img src="https://img.icons8.com/color/24/000000/pen.png" width="20" height="20" /> Writing
 *Technical content and documentation*
 
 </td>
 <td width="25%" align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/graduation-cap.png" width="20" height="20" />
+### <img src="https://img.icons8.com/color/24/000000/graduation-cap.png" width="20" height="20" /> Mentoring
 *Knowledge sharing and guidance*
 
 </td>
