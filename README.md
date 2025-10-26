@@ -114,11 +114,11 @@
 
 ---
 
-## Featured Projects
-
 <div align="center">
 
-<table align="center">
+## Featured Projects
+
+<table>
 <tr>
 <td width="50%" align="center">
 
