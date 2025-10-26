@@ -116,9 +116,11 @@
 
 ## Featured Projects
 
-<table>
+<div align="center">
+
+<table align="center">
 <tr>
-<td width="50%">
+<td width="50%" align="center">
 
 ### <img src="https://img.icons8.com/color/24/000000/leaf.png" width="20" height="20" /> [OpenCompliance ESG](https://github.com/ojasshukla01/opencompliance-esg)
 **ESG Data Pipeline & Analytics Platform**
@@ -131,7 +133,7 @@
 **Tech Stack:** `Streamlit` `FastAPI` `DuckDB` `Python`
 
 </td>
-<td width="50%">
+<td width="50%" align="center">
 
 ### <img src="https://img.icons8.com/color/24/000000/warehouse.png" width="20" height="20" /> [Lakehouse360](https://github.com/ojasshukla01/lakehouse360)
 **End-to-End Data Engineering Platform**
@@ -146,7 +148,7 @@
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" align="center">
 
 ### <img src="https://img.icons8.com/color/24/000000/brain.png" width="20" height="20" /> [LLM Learning Path Generator](https://github.com/ojasshukla01/llm-learning-path-generator)
 **AI-Powered Learning Roadmap Generator**
@@ -159,7 +161,7 @@
 **Tech Stack:** `Streamlit` `LangChain` `DuckDB` `OpenAI`
 
 </td>
-<td width="50%">
+<td width="50%" align="center">
 
 ### <img src="https://img.icons8.com/color/24/000000/analytics.png" width="20" height="20" /> [Data Engineering Case Studies](https://github.com/ojasshukla01/data-engineering-case-studies)
 **Real-World Data Engineering Solutions**
@@ -174,6 +176,8 @@
 </td>
 </tr>
 </table>
+
+</div>
 
 ---
 
