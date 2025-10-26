@@ -120,9 +120,14 @@
 
 <table>
 <tr>
-<td width="50%" align="center">
+<td width="50%" align="left">
+
+<div align="center">
 
 ### <img src="https://img.icons8.com/color/24/000000/leaf.png" width="20" height="20" /> [OpenCompliance ESG](https://github.com/ojasshukla01/opencompliance-esg)
+
+</div>
+
 **ESG Data Pipeline & Analytics Platform**
 
 - Real-time ESG metrics dashboard
@@ -133,9 +138,14 @@
 **Tech Stack:** `Streamlit` `FastAPI` `DuckDB` `Python`
 
 </td>
-<td width="50%" align="center">
+<td width="50%" align="left">
+
+<div align="center">
 
 ### <img src="https://img.icons8.com/color/24/000000/warehouse.png" width="20" height="20" /> [Lakehouse360](https://github.com/ojasshukla01/lakehouse360)
+
+</div>
+
 **End-to-End Data Engineering Platform**
 
 - Complete data ingestion and transformation pipeline
@@ -148,9 +158,14 @@
 </td>
 </tr>
 <tr>
-<td width="50%" align="center">
+<td width="50%" align="left">
+
+<div align="center">
 
 ### <img src="https://img.icons8.com/color/24/000000/brain.png" width="20" height="20" /> [LLM Learning Path Generator](https://github.com/ojasshukla01/llm-learning-path-generator)
+
+</div>
+
 **AI-Powered Learning Roadmap Generator**
 
 - Personalized learning paths using advanced LLMs
@@ -161,9 +176,14 @@
 **Tech Stack:** `Streamlit` `LangChain` `DuckDB` `OpenAI`
 
 </td>
-<td width="50%" align="center">
+<td width="50%" align="left">
+
+<div align="center">
 
 ### <img src="https://img.icons8.com/color/24/000000/analytics.png" width="20" height="20" /> [Data Engineering Case Studies](https://github.com/ojasshukla01/data-engineering-case-studies)
+
+</div>
+
 **Real-World Data Engineering Solutions**
 
 - Production-ready batch and streaming pipelines
