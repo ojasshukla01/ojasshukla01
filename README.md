@@ -333,7 +333,7 @@ I'm always open to discussing data engineering challenges, innovative projects, 
 
 <br>
 
-<a href="https://ojas-de-portfolio.vercel.app/resume" target="_blank">
+<a href="https://portfolio-ojas-shuklas-projects-7dc8ad06.vercel.app/">
   <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000" alt="Portfolio" />
 </a>
 <a href="https://medium.com/@ojasshukla01" target="_blank">
