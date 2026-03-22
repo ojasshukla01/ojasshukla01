@@ -39,7 +39,7 @@
 
 <div align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/code.png" width="20" height="20" /> Programming Languages
+### 💻 Programming Languages
 <a href="https://python.org" target="_blank">
   <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=3776AB" alt="Python" />
 </a>
@@ -58,7 +58,7 @@
 
 <br><br>
 
-### <img src="https://img.icons8.com/color/24/000000/cloud.png" width="20" height="20" /> Cloud Platforms
+### ☁️ Cloud Platforms
 <a href="https://cloud.google.com" target="_blank">
   <img src="https://img.shields.io/badge/-Google%20Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white&labelColor=4285F4" alt="Google Cloud" />
 </a>
@@ -74,7 +74,7 @@
 
 <br><br>
 
-### <img src="https://img.icons8.com/color/24/000000/database.png" width="20" height="20" /> Data Platforms & Tools
+### 🗄️ Data Platforms & Tools
 <a href="https://spark.apache.org" target="_blank">
   <img src="https://img.shields.io/badge/-Apache%20Spark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white&labelColor=E25A1C" alt="Apache Spark" />
 </a>
@@ -99,7 +99,7 @@
 
 <br><br>
 
-### <img src="https://img.icons8.com/color/24/000000/settings.png" width="20" height="20" /> DevOps & Infrastructure
+### ⚙️ DevOps & Infrastructure
 <a href="https://docker.com" target="_blank">
   <img src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=2496ED" alt="Docker" />
 </a>
@@ -129,7 +129,7 @@
 
 <div align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/leaf.png" width="20" height="20" /> [OpenCompliance ESG](https://github.com/ojasshukla01/opencompliance-esg)
+### 🌿 [OpenCompliance ESG](https://github.com/ojasshukla01/opencompliance-esg)
 
 </div>
 
@@ -146,7 +146,7 @@
 
 <div align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/combo-chart.png" width="20" height="20" /> [Data Forge](https://github.com/ojasshukla01/data-forge)
+### 📊 [Data Forge](https://github.com/ojasshukla01/data-forge)
 
 </div>
 
@@ -165,7 +165,7 @@
 
 <div align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/brain.png" width="20" height="20" /> [LLM Learning Path Generator](https://github.com/ojasshukla01/llm-learning-path-generator)
+### 🧠 [LLM Learning Path Generator](https://github.com/ojasshukla01/llm-learning-path-generator)
 
 </div>
 
@@ -180,7 +180,7 @@
 
 <div align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/password.png" width="20" height="20" /> [token-doctor](https://github.com/ojasshukla01/token-doctor)
+### 🔑 [token-doctor](https://github.com/ojasshukla01/token-doctor)
 
 </div>
 
@@ -198,7 +198,7 @@
 
 <div align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/shield.png" width="20" height="20" /> [SQLSense](https://github.com/ojasshukla01/sqlsense)
+### 🛡️ [SQLSense](https://github.com/ojasshukla01/sqlsense)
 
 </div>
 
@@ -214,7 +214,7 @@
 
 <div align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/hospital.png" width="20" height="20" /> [Health Analytics BI Dashboard](https://github.com/ojasshukla01/health-analytics-bi-dashboard)
+### 🏥 [Health Analytics BI Dashboard](https://github.com/ojasshukla01/health-analytics-bi-dashboard)
 
 </div>
 
@@ -236,7 +236,7 @@
 
 <div align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/portfolio.png" width="20" height="20" /> [Professional Portfolio](https://portfolio-ojas-shuklas-projects-7dc8ad06.vercel.app/)
+### 🌐 [Professional Portfolio](https://portfolio-ojas-shuklas-projects-7dc8ad06.vercel.app/)
 **Interactive Data Engineering Showcase**
 
 Modern, responsive design with integrated project galleries, case studies, and professional experience details.
@@ -245,7 +245,7 @@ Modern, responsive design with integrated project galleries, case studies, and p
 
 ---
 
-### <img src="https://img.icons8.com/color/24/000000/edit.png" width="20" height="20" /> [Technical Writing](https://medium.com/@ojasshukla01)
+### ✍️ [Technical Writing](https://medium.com/@ojasshukla01)
 **Data Engineering Blog & Industry Insights**
 
 In-depth technical articles, best practices, tutorials, industry insights on data engineering, and skillful portfolio design strategies.
@@ -260,23 +260,23 @@ In-depth technical articles, best practices, tutorials, industry insights on dat
 
 **Data platforms and pipelines**
 
-- **<img src="https://img.icons8.com/color/24/000000/warehouse.png" width="16" height="16" /> [Lakehouse360](https://github.com/ojasshukla01/lakehouse360)** — Ingestion, transformation, data quality, Streamlit + DuckDB + dbt
-- **<img src="https://img.icons8.com/color/24/000000/analytics.png" width="16" height="16" /> [Data Engineering Case Studies](https://github.com/ojasshukla01/data-engineering-case-studies)** — Batch/streaming patterns, BigQuery, Airflow, dbt
-- **<img src="https://img.icons8.com/color/24/000000/map-marker.png" width="16" height="16" /> [auto-map-au](https://github.com/ojasshukla01/auto-map-au) (AutoMap360)** — Suburb→region geospatial pipeline (AU, NZ, IN), shapefiles, Streamlit QA
-- **<img src="https://img.icons8.com/color/24/000000/database.png" width="16" height="16" /> [data-pipeline](https://github.com/ojasshukla01/data-pipeline)** — Data engineering pipeline project
-- **<img src="https://img.icons8.com/color/24/000000/play.png" width="16" height="16" /> [BharatStream SQL](https://github.com/ojasshukla01/bharatstream-sql)** — SQL backend with analytics
-- **<img src="https://img.icons8.com/color/24/000000/video.png" width="16" height="16" /> [streaming-platform](https://github.com/ojasshukla01/streaming-platform)** — Video streaming stack with React
+- **🏭 [Lakehouse360](https://github.com/ojasshukla01/lakehouse360)** — Ingestion, transformation, data quality, Streamlit + DuckDB + dbt
+- **📈 [Data Engineering Case Studies](https://github.com/ojasshukla01/data-engineering-case-studies)** — Batch/streaming patterns, BigQuery, Airflow, dbt
+- **🗺️ [auto-map-au](https://github.com/ojasshukla01/auto-map-au) (AutoMap360)** — Suburb→region geospatial pipeline (AU, NZ, IN), shapefiles, Streamlit QA
+- **📦 [data-pipeline](https://github.com/ojasshukla01/data-pipeline)** — Data engineering pipeline project
+- **▶️ [BharatStream SQL](https://github.com/ojasshukla01/bharatstream-sql)** — SQL backend with analytics
+- **🎬 [streaming-platform](https://github.com/ojasshukla01/streaming-platform)** — Video streaming stack with React
 
 **Apps, tooling, and experiments**
 
-- **<img src="https://img.icons8.com/color/24/000000/edit.png" width="16" height="16" /> [prompt-hub](https://github.com/ojasshukla01/prompt-hub)** — Community-driven prompt sharing and management
-- **<img src="https://img.icons8.com/color/24/000000/code.png" width="16" height="16" /> [git-activity-simulator](https://github.com/ojasshukla01/git-activity-simulator)** — CLI to simulate commits, PRs, and activity for demos and learning
-- **<img src="https://img.icons8.com/color/24/000000/portfolio.png" width="16" height="16" /> [ojas-portfolio](https://github.com/ojasshukla01/ojas-portfolio)** — Portfolio site source
-- **<img src="https://img.icons8.com/color/24/000000/edit.png" width="16" height="16" /> [sop_generator_app](https://github.com/ojasshukla01/sop_generator_app)** / **[sop-generator-frontend](https://github.com/ojasshukla01/sop-generator-frontend)** — SOP generator (Python + JS)
-- **<img src="https://img.icons8.com/color/24/000000/shield.png" width="16" height="16" /> [web-bases-analysis-intrusion-detection-system](https://github.com/ojasshukla01/web-bases-analysis-intrusion-detection-system)** — Web-based intrusion detection analysis
-- **<img src="https://img.icons8.com/color/24/000000/code.png" width="16" height="16" /> [sql-injection](https://github.com/ojasshukla01/sql-injection)** — SQL injection lab (C#)
-- **<img src="https://img.icons8.com/color/24/000000/settings.png" width="16" height="16" /> [Torrent_automate](https://github.com/ojasshukla01/Torrent_automate)** — Automation utilities
-- **<img src="https://img.icons8.com/color/24/000000/brain.png" width="16" height="16" /> [hug-lite](https://github.com/ojasshukla01/hug-lite)** — Lightweight Hugging Face–related experiment
+- **💬 [prompt-hub](https://github.com/ojasshukla01/prompt-hub)** — Community-driven prompt sharing and management
+- **🔧 [git-activity-simulator](https://github.com/ojasshukla01/git-activity-simulator)** — CLI to simulate commits, PRs, and activity for demos and learning
+- **🌐 [ojas-portfolio](https://github.com/ojasshukla01/ojas-portfolio)** — Portfolio site source
+- **📄 [sop_generator_app](https://github.com/ojasshukla01/sop_generator_app)** / **[sop-generator-frontend](https://github.com/ojasshukla01/sop-generator-frontend)** — SOP generator (Python + JS)
+- **🔒 [web-bases-analysis-intrusion-detection-system](https://github.com/ojasshukla01/web-bases-analysis-intrusion-detection-system)** — Web-based intrusion detection analysis
+- **🧪 [sql-injection](https://github.com/ojasshukla01/sql-injection)** — SQL injection lab (C#)
+- **🧲 [Torrent_automate](https://github.com/ojasshukla01/Torrent_automate)** — Automation utilities
+- **🤗 [hug-lite](https://github.com/ojasshukla01/hug-lite)** — Lightweight Hugging Face–related experiment
 
 ---
 
@@ -285,13 +285,13 @@ In-depth technical articles, best practices, tutorials, industry insights on dat
 <div align="center">
 
 <a href="https://github.com/ojasshukla01">
-  <img src="https://github-readme-stats.vercel.app/api?username=ojasshukla01&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&custom_title=GitHub%20Statistics" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ojasshukla01&show_icons=true&theme=tokyonight&hide_border=true&custom_title=GitHub%20Statistics" alt="GitHub Stats" />
 </a>
 
 <br><br>
 
 <a href="https://github.com/ojasshukla01">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ojasshukla01&theme=tokyonight&hide_border=true&custom_title=Contribution%20Streak" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=ojasshukla01&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
 </a>
 
 <br><br>
@@ -312,25 +312,25 @@ In-depth technical articles, best practices, tutorials, industry insights on dat
 <tr>
 <td width="25%" align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/lightbulb.png" width="20" height="20" /> Innovation
+### 💡 Innovation
 *Driving technological advancement through creative problem-solving*
 
 </td>
 <td width="25%" align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/star.png" width="20" height="20" /> Excellence
+### ⭐ Excellence
 *Maintaining highest standards in code quality and system design*
 
 </td>
 <td width="25%" align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/users.png" width="20" height="20" /> Collaboration
+### 🤝 Collaboration
 *Fostering knowledge sharing and team growth*
 
 </td>
 <td width="25%" align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/trending-up.png" width="20" height="20" /> Growth
+### 📈 Growth
 *Continuous learning and adaptation to emerging technologies*
 
 </td>
@@ -349,19 +349,19 @@ In-depth technical articles, best practices, tutorials, industry insights on dat
 <tr>
 <td width="33%" align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/swimming.png" width="20" height="20" /> Swimming
+### 🏊 Swimming
 *Maintaining physical fitness and mental clarity*
 
 </td>
 <td width="33%" align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/gamepad.png" width="20" height="20" /> Strategic Gaming
+### 🎮 Strategic Gaming
 *Enhancing problem-solving skills through Dota 2*
 
 </td>
 <td width="33%" align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/book.png" width="20" height="20" /> Continuous Learning
+### 📚 Continuous Learning
 *Exploring LLMs and emerging data technologies*
 
 </td>
@@ -408,33 +408,32 @@ I'm always open to discussing data engineering challenges, innovative projects, 
 <tr>
 <td width="25%" align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/briefcase.png" width="20" height="20" /> Full-time Roles
+### 💼 Full-time Roles
 *Senior Data Engineering positions*
 
 </td>
 <td width="25%" align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/handshake.png" width="20" height="20" /> Consulting
+### 🤝 Consulting
 *Contract and project-based work*
 
 </td>
 <td width="25%" align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/pen.png" width="20" height="20" /> Writing
+### ✍️ Writing
 *Technical content and documentation*
 
 </td>
 <td width="25%" align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/graduation-cap.png" width="20" height="20" /> Mentoring
+### 🎓 Mentoring
 *Knowledge sharing and guidance*
 
 </td>
 </tr>
 </table>
 
-### <img src="https://img.icons8.com/color/24/000000/map-marker.png" width="20" height="20" />
-**Sydney, Australia** 🇦🇺
+### 📍 **Sydney, Australia** 🇦🇺
 
 </div>
 
