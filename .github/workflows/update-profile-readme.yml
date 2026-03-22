@@ -1,13 +1,19 @@
 # Self-updating profile README (marker replacement pattern).
 # https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/
+#
+# Branch protection: if rules block the default GITHUB_TOKEN from pushing to `main`,
+# use a fine-grained PAT with contents:write on this repo and set e.g.
+#   env:
+#     GITHUB_TOKEN: ${{ secrets.PROFILE_README_TOKEN }}
+# (add the secret under Settings → Secrets and variables → Actions).
 
 name: Update profile README
 
 on:
   workflow_dispatch:
   schedule:
-    # Hourly at :42 UTC — adjust if you prefer less frequent commits
-    - cron: "42 * * * *"
+    # Daily ~06:17 UTC — adjust cadence as needed
+    - cron: "17 6 * * *"
   push:
     branches:
       - main
@@ -26,10 +32,12 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      # Pinned SHAs — Dependabot can propose updates.
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
           python-version: "3.12"
           cache: pip

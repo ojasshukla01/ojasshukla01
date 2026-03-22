@@ -20,7 +20,7 @@
 
 <br />
 
-<sub>This README appears on your GitHub profile when the repository <code>ojasshukla01/ojasshukla01</code> is public. <a href="https://docs.github.com/en/account-and-profile/how-tos/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme">Documentation</a>.</sub>
+<sub>Shown when <code>ojasshukla01/ojasshukla01</code> is public. <a href="https://docs.github.com/en/account-and-profile/how-tos/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme">Profile README docs</a>.</sub>
 
 </div>
 
@@ -28,7 +28,9 @@
 
 ### Contents
 
-[Overview](#overview) · [Recent activity](#recent-activity) · [Flagship repositories](#flagship-repositories) · [Data Forge](#data-forge-platform-model) · [Technical stack](#technical-stack) · [Repository index](#repository-index) · [Online presence](#online-presence) · [Operating principles](#operating-principles) · [Contact](#contact) · [Document notes](#document-notes)
+**Profile:** [Overview](#overview) · [Flagship repositories](#flagship-repositories) · [Recent activity](#recent-activity) · [Contact](#contact)
+
+**Deep dive:** [Data Forge](#data-forge-platform-model) · [Technical stack](#technical-stack) · [Repository index](#repository-index) · [Online presence](#online-presence) · [Operating principles](#operating-principles) · [Document notes](#document-notes)
 
 ---
 
@@ -53,69 +55,6 @@ delivery = airflow, cicd, terraform
 
 ---
 
-## Recent activity
-
-Sections below are **updated automatically** by a GitHub Action (**GitHub GraphQL** for releases, pull requests, stars, and repo activity; **RSS** for Medium), using the marker pattern from [Building a self-updating profile README for GitHub](https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/).
-
-### Latest GitHub releases
-
-<!-- profile_releases starts -->
-- [ojasshukla01/data-forge `v0.1.0`](https://github.com/ojasshukla01/data-forge/releases/tag/v0.1.0) — _2026-03-15_
-<!-- profile_releases ends -->
-
-### Latest on Medium
-
-<!-- profile_medium starts -->
-- [The Architecture of Curiosity: Crafting a Data Engineering Portfolio from Invisible Work](https://medium.com/@ojasshukla01/the-architecture-of-curiosity-crafting-a-data-engineering-portfolio-from-invisible-work-d58ff32e3ee9)
-<!-- profile_medium ends -->
-
-### Recent pull requests
-
-Pull requests you **authored** (including on your own repositories), newest update first — populated using GitHub search (`is:pr author:<login>`).
-
-<!-- profile_prs starts -->
-- [ojasshukla01/data-forge: feat: enhance documentation and CI/CD processes](https://github.com/ojasshukla01/data-forge/pull/13) — _open 2026-03-22_
-- [ojasshukla01/data-forge: feat: update documentation and enhance API with new features](https://github.com/ojasshukla01/data-forge/pull/12) — _merged 2026-03-21_
-- [ojasshukla01/data-forge: Add/new features](https://github.com/ojasshukla01/data-forge/pull/10) — _merged 2026-03-17_
-- [ojasshukla01/data-forge: feat: enhance artifacts and runs pages with improved filtering and us…](https://github.com/ojasshukla01/data-forge/pull/11) — _merged 2026-03-17_
-- [ojasshukla01/data-forge: feat: add reduced-memory snapshot mode for generation results](https://github.com/ojasshukla01/data-forge/pull/9) — _merged 2026-03-17_
-- [ojasshukla01/data-forge: Add/new features](https://github.com/ojasshukla01/data-forge/pull/8) — _merged 2026-03-16_
-- [ojasshukla01/data-forge: Enhance row planning and cardinality management in data generation](https://github.com/ojasshukla01/data-forge/pull/7) — _merged 2026-03-16_
-- [ojasshukla01/data-forge: Update .gitignore, pre-commit configuration, and CI workflow](https://github.com/ojasshukla01/data-forge/pull/6) — _merged 2026-03-15_
-- [ojasshukla01/data-forge: Add environment configuration, enhance CI workflow, and improve docum…](https://github.com/ojasshukla01/data-forge/pull/3) — _merged 2026-03-11_
-- [ojasshukla01/data-forge: Enhance CI workflow, update documentation, and improve type safety](https://github.com/ojasshukla01/data-forge/pull/5) — _merged 2026-03-11_
-<!-- profile_prs ends -->
-
-### Recently starred repositories
-
-Public repositories you starred, most recent first.
-
-<!-- profile_starred starts -->
-- [duckdb/duckdb](https://github.com/duckdb/duckdb) — _2026-03-03_
-- [DataExpert-io/data-engineer-handbook](https://github.com/DataExpert-io/data-engineer-handbook) — _2026-03-03_
-- [cloudcommunity/Free-Certifications](https://github.com/cloudcommunity/Free-Certifications) — _2026-03-03_
-- [raj8github/sqlsense](https://github.com/raj8github/sqlsense) — _2026-03-03_
-<!-- profile_starred ends -->
-
-### Recently updated public repositories
-
-<!-- profile_repos starts -->
-- [ojasshukla01/data-forge](https://github.com/ojasshukla01/data-forge) — _2026-03-22_
-- [ojasshukla01/token-doctor](https://github.com/ojasshukla01/token-doctor) — _2026-03-05_
-- [ojasshukla01/sqlsense](https://github.com/ojasshukla01/sqlsense) — _2026-03-04_
-- [ojasshukla01/Torrent_automate](https://github.com/ojasshukla01/Torrent_automate) — _2026-02-28_
-- [ojasshukla01/data-pipeline](https://github.com/ojasshukla01/data-pipeline) — _2026-01-31_
-- [ojasshukla01/llm-learning-path-generator](https://github.com/ojasshukla01/llm-learning-path-generator) — _2025-10-11_
-- [ojasshukla01/hug-lite](https://github.com/ojasshukla01/hug-lite) — _2025-07-15_
-- [ojasshukla01/auto-map-au](https://github.com/ojasshukla01/auto-map-au) — _2025-06-13_
-- [ojasshukla01/git-activity-simulator](https://github.com/ojasshukla01/git-activity-simulator) — _2025-06-03_
-- [ojasshukla01/prompt-hub](https://github.com/ojasshukla01/prompt-hub) — _2025-05-26_
-<!-- profile_repos ends -->
-
-<sub>Automation: <code>.github/workflows/update-profile-readme.yml</code> · <code>scripts/build_readme.py</code>. Pattern: <a href="https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/">Simon Willison</a>.</sub>
-
----
-
 ## Flagship repositories
 
 Representative open-source work. Contributions welcome where repositories are licensed and document how to contribute.
@@ -128,6 +67,73 @@ Representative open-source work. Contributions welcome where repositories are li
 | [**token-doctor**](https://github.com/ojasshukla01/token-doctor) | Token lifecycle debugging, changelogs, sunsets, ICS — local-first | Python, SQLite, CLI |
 | [**SQLSense**](https://github.com/ojasshukla01/sqlsense) | Audited, constrained SQL over MCP for software agents | Python, MCP |
 | [**Health Analytics BI Dashboard**](https://github.com/ojasshukla01/health-analytics-bi-dashboard) | Healthcare KPIs and business intelligence patterns | Power BI, analytics |
+
+---
+
+## Recent activity
+
+Auto-refreshed markdown (GitHub + Medium). Expand **How this section is updated** for implementation details.
+
+<details>
+<summary><strong>How this section is updated</strong></summary>
+
+A GitHub Action runs **once per day** and rewrites the HTML comment markers in this file. Sources: **GraphQL** (paginated public repos; **one combined** query for starred repos + authored PR search; retries on transient failures) and **Medium RSS** (retries). Pattern from <a href="https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/">Building a self-updating profile README for GitHub</a> · <code>scripts/build_readme.py</code> · <code>.github/workflows/update-profile-readme.yml</code> · <a href=".github/dependabot.yml">Dependabot</a>.
+
+</details>
+
+### Latest GitHub releases
+
+<!-- profile_releases starts -->
+- [ojasshukla01/data-forge `v0.1.0`](https://github.com/ojasshukla01/data-forge/releases/tag/v0.1.0) — _2026-03-15 · release_
+<!-- profile_releases ends -->
+
+### Latest on Medium
+
+<!-- profile_medium starts -->
+- [The Architecture of Curiosity: Crafting a Data Engineering Portfolio from Invisible Work](https://medium.com/@ojasshukla01/the-architecture-of-curiosity-crafting-a-data-engineering-portfolio-from-invisible-work-d58ff32e3ee9)
+<!-- profile_medium ends -->
+
+### Recent pull requests
+
+One row **per repository** (your most recently updated authored PR in each), so the profile stays easy to scan.
+
+<details>
+<summary><strong>Expand pull request list</strong></summary>
+
+<!-- profile_prs starts -->
+- [ojasshukla01/data-forge: feat: enhance documentation and CI/CD processes](https://github.com/ojasshukla01/data-forge/pull/13) — _2026-03-22 · merged_
+- [raj8github/sqlsense: refactor: clean up imports and exception handling in various modules](https://github.com/raj8github/sqlsense/pull/2) — _2026-03-04 · merged_
+<!-- profile_prs ends -->
+
+</details>
+
+### Recently starred repositories
+
+Tools and references I am tracking (public stars). Repositories already shown under **Recent pull requests** are omitted here to avoid duplication.
+
+<details>
+<summary><strong>Expand starred repositories</strong></summary>
+
+<!-- profile_starred starts -->
+- [duckdb/duckdb](https://github.com/duckdb/duckdb) — _2026-03-03 · starred_
+- [DataExpert-io/data-engineer-handbook](https://github.com/DataExpert-io/data-engineer-handbook) — _2026-03-03 · starred_
+- [cloudcommunity/Free-Certifications](https://github.com/cloudcommunity/Free-Certifications) — _2026-03-03 · starred_
+<!-- profile_starred ends -->
+
+</details>
+
+### Recently updated public repositories
+
+<!-- profile_repos starts -->
+- [ojasshukla01/data-forge](https://github.com/ojasshukla01/data-forge) — _2026-03-22_
+- [ojasshukla01/token-doctor](https://github.com/ojasshukla01/token-doctor) — _2026-03-05_
+- [ojasshukla01/sqlsense](https://github.com/ojasshukla01/sqlsense) — _2026-03-04_
+- [ojasshukla01/Torrent_automate](https://github.com/ojasshukla01/Torrent_automate) — _2026-02-28_
+- [ojasshukla01/data-pipeline](https://github.com/ojasshukla01/data-pipeline) — _2026-01-31_
+- [ojasshukla01/llm-learning-path-generator](https://github.com/ojasshukla01/llm-learning-path-generator) — _2025-10-11_
+- [ojasshukla01/hug-lite](https://github.com/ojasshukla01/hug-lite) — _2025-07-15_
+- [ojasshukla01/auto-map-au](https://github.com/ojasshukla01/auto-map-au) — _2025-06-13_
+<!-- profile_repos ends -->
 
 ---
 
@@ -198,13 +204,16 @@ flowchart TB
 - [**bharatstream-sql**](https://github.com/ojasshukla01/bharatstream-sql) — SQL and analytics backend  
 - [**streaming-platform**](https://github.com/ojasshukla01/streaming-platform) — Video stack with React  
 
-### Applications, tooling, and experiments
+### Applications and tooling
 
 - [**prompt-hub**](https://github.com/ojasshukla01/prompt-hub) — Prompt management and sharing  
-- [**git-activity-simulator**](https://github.com/ojasshukla01/git-activity-simulator) — CLI for synthetic Git activity (demonstrations and learning)  
 - [**ojas-portfolio**](https://github.com/ojasshukla01/ojas-portfolio) — Portfolio site source  
 - [**sop_generator_app**](https://github.com/ojasshukla01/sop_generator_app) · [**sop-generator-frontend**](https://github.com/ojasshukla01/sop-generator-frontend) — Statement-of-purpose tooling  
 - [**web-bases-analysis-intrusion-detection-system**](https://github.com/ojasshukla01/web-bases-analysis-intrusion-detection-system) — Network intrusion detection analysis  
+
+### Archive and experiments
+
+- [**git-activity-simulator**](https://github.com/ojasshukla01/git-activity-simulator) — CLI for synthetic Git activity (demonstrations and learning)  
 - [**sql-injection**](https://github.com/ojasshukla01/sql-injection) — Security lab (C#)  
 - [**Torrent_automate**](https://github.com/ojasshukla01/Torrent_automate) — Automation utilities  
 - [**hug-lite**](https://github.com/ojasshukla01/hug-lite) — Lightweight Hugging Face–related experiment  
@@ -215,7 +224,7 @@ flowchart TB
 
 | Channel | Link | Description |
 |---------|------|-------------|
-| Portfolio | [Professional site (Vercel)](https://portfolio-ojas-shuklas-projects-7dc8ad06.vercel.app/) | Case studies, projects, experience |
+| Portfolio | [Professional site (Vercel)](https://portfolio-ojas-shuklas-projects-7dc8ad06.vercel.app/) | Case studies, projects, experience; a **custom domain** shortens the visible URL in the hero if you add one in Vercel |
 | Writing | [Medium](https://medium.com/@ojasshukla01) | Data engineering and practice |
 
 Site stack: React, Next.js, Tailwind CSS, Vercel.
@@ -247,7 +256,7 @@ Optional support: [Buy Me a Coffee](https://buymeacoffee.com/ojasshuklav).
 
 **Ojas Shukla** · Senior Data Engineer
 
-<sub>This profile uses GitHub Flavored Markdown and native Mermaid diagrams only. The <a href="#recent-activity">Recent activity</a> section is plain markdown refreshed by a repository workflow (no third-party statistics or counter images).</sub>
+<sub>GFM and Mermaid only. <a href="#recent-activity">Recent activity</a> is plain markdown (daily workflow). Pull requests and stars sit in collapsible sections to keep the profile easy to scan.</sub>
 
 </div>
 
@@ -264,9 +273,11 @@ Technical reference for this file: GitHub [**profile README**](https://docs.gith
 |-----------|------|-----------|
 | Diagrams | Architecture | [Mermaid on GitHub](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/) |
 | Markup | Structure | [GitHub Flavored Markdown](https://github.github.com/gfm/) |
-| Activity lists | GraphQL (releases, PRs, stars, repos) + Medium RSS → marker blocks | [`scripts/build_readme.py`](scripts/build_readme.py), [workflow](.github/workflows/update-profile-readme.yml); pattern from [Simon Willison](https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/) |
+| Activity lists | Daily workflow: batched GraphQL (stars + PR search in one call; paginated repos), retries on transient errors, stars exclude PR repos, Medium RSS with retries → marker blocks | [`scripts/build_readme.py`](scripts/build_readme.py), [workflow](.github/workflows/update-profile-readme.yml); [Dependabot](.github/dependabot.yml); pattern from [Simon Willison](https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/) |
 
 **Local refresh:** `pip install -r requirements.txt`. `python scripts/build_readme.py --dry-run` loads **Medium** without a token; GitHub sections need a token. Full run: PowerShell `$env:GITHUB_TOKEN = (gh auth token); python scripts/build_readme.py`, or a PAT with scope to read your data via the GraphQL API. Optional: `MEDIUM_FEED_URL` to override the Medium RSS URL.
+
+**GitHub profile:** Pin up to six repositories that match your [Flagship](#flagship-repositories) table so the grid above the README reinforces the same story.
 
 If you adapt this layout, replace `ojasshukla01` in URLs and cite upstream tools you embed.
 

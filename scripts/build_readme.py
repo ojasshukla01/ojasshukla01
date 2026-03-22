@@ -10,6 +10,7 @@ import argparse
 import json
 import os
 import sys
+import time
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -48,10 +49,21 @@ query ($login: String!, $cursor: String) {
 }
 """
 
-# User.pullRequests on GitHub only covers PRs on repos the user does *not* own; search includes all authored PRs.
-SEARCH_AUTHORED_PRS_QUERY = """
-query ($q: String!) {
-  search(query: $q, type: ISSUE, first: 20) {
+# One round trip: starred repos + authored PR search (replaces separate calls).
+STARS_AND_PRS_QUERY = """
+query ($login: String!, $q: String!) {
+  user(login: $login) {
+    starredRepositories(first: 16, orderBy: { field: STARRED_AT, direction: DESC }) {
+      edges {
+        starredAt
+        node {
+          nameWithOwner
+          url
+        }
+      }
+    }
+  }
+  search(query: $q, type: ISSUE, first: 40) {
     nodes {
       ... on PullRequest {
         title
@@ -68,25 +80,12 @@ query ($q: String!) {
 }
 """
 
-STARRED_REPOS_QUERY = """
-query ($login: String!) {
-  user(login: $login) {
-    starredRepositories(first: 12, orderBy: { field: STARRED_AT, direction: DESC }) {
-      edges {
-        starredAt
-        node {
-          nameWithOwner
-          url
-        }
-      }
-    }
-  }
-}
-"""
-
 DEFAULT_MEDIUM_FEED = "https://medium.com/feed/@ojasshukla01"
 
 PR_TITLE_MAX = 88
+
+MAX_HTTP_ATTEMPTS = 3
+BACKOFF_SECONDS = 1.5
 
 
 def canonical_link(url: str) -> str:
@@ -100,7 +99,7 @@ def canonical_link(url: str) -> str:
         return url or "#"
 
 
-def graphql(query: str, variables: dict, token: str) -> dict:
+def _graphql_once(query: str, variables: dict, token: str) -> dict:
     payload = json.dumps({"query": query, "variables": variables}).encode("utf-8")
     req = urllib.request.Request(
         "https://api.github.com/graphql",
@@ -112,11 +111,41 @@ def graphql(query: str, variables: dict, token: str) -> dict:
         },
         method="POST",
     )
-    with urllib.request.urlopen(req, timeout=60) as resp:
-        body = json.load(resp)
+    try:
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            body = json.load(resp)
+    except urllib.error.HTTPError as exc:
+        if exc.code >= 500:
+            raise
+        payload_txt = exc.read().decode("utf-8", errors="replace")
+        raise RuntimeError(f"GitHub HTTP {exc.code}: {payload_txt[:500]}") from exc
     if body.get("errors"):
         raise RuntimeError(json.dumps(body["errors"], indent=2))
     return body["data"]
+
+
+def graphql(query: str, variables: dict, token: str) -> dict:
+    """GraphQL with retries on transient network / HTTP 5xx."""
+    delay = BACKOFF_SECONDS
+    last: BaseException | None = None
+    for attempt in range(MAX_HTTP_ATTEMPTS):
+        try:
+            return _graphql_once(query, variables, token)
+        except (
+            urllib.error.URLError,
+            urllib.error.HTTPError,
+            TimeoutError,
+            json.JSONDecodeError,
+        ) as exc:
+            if isinstance(exc, urllib.error.HTTPError) and exc.code < 500:
+                raise
+            last = exc
+            if attempt == MAX_HTTP_ATTEMPTS - 1:
+                break
+            time.sleep(delay)
+            delay *= 2
+    assert last is not None
+    raise last
 
 
 def fetch_public_repositories(login: str, token: str) -> list[dict]:
@@ -135,22 +164,34 @@ def fetch_public_repositories(login: str, token: str) -> list[dict]:
     return repos
 
 
-def fetch_authored_pull_requests(login: str, token: str) -> list[dict]:
-    q = f"is:pr author:{login} sort:updated-desc"
-    data = graphql(SEARCH_AUTHORED_PRS_QUERY, {"q": q}, token)
-    nodes = (data.get("search") or {}).get("nodes") or []
-    return [n for n in nodes if n and n.get("url")]
-
-
-def fetch_starred_repositories(login: str, token: str) -> list[dict]:
-    data = graphql(STARRED_REPOS_QUERY, {"login": login}, token)
+def fetch_stars_and_authored_pull_requests(login: str, token: str) -> tuple[list[dict], list[dict]]:
+    search_q = f"is:pr author:{login} sort:updated-desc"
+    data = graphql(STARS_AND_PRS_QUERY, {"login": login, "q": search_q}, token)
     user = data.get("user")
     if not user:
         raise RuntimeError(f"GitHub user not found or not visible: {login!r}")
-    return (user.get("starredRepositories") or {}).get("edges") or []
+    edges = (user.get("starredRepositories") or {}).get("edges") or []
+    nodes = (data.get("search") or {}).get("nodes") or []
+    prs = [n for n in nodes if n and n.get("url")]
+    return prs, edges
 
 
-def format_releases_md(repos: list[dict], limit: int = 10) -> str:
+def pr_repo_names_for_star_filter(pr_nodes: list[dict], limit: int = 7) -> set[str]:
+    """Repos that appear in the deduped PR list (exclude from stars for less repetition)."""
+    seen: set[str] = set()
+    names: set[str] = set()
+    for pr in pr_nodes:
+        repo = pr["repository"]["nameWithOwner"]
+        if repo in seen:
+            continue
+        seen.add(repo)
+        names.add(repo)
+        if len(names) >= limit:
+            break
+    return names
+
+
+def format_releases_md(repos: list[dict], limit: int = 6) -> str:
     rows: list[tuple[str, str]] = []
     for r in repos:
         nodes = (r.get("releases") or {}).get("nodes") or []
@@ -160,7 +201,7 @@ def format_releases_md(repos: list[dict], limit: int = 10) -> str:
         published = rel.get("publishedAt") or ""
         tag = rel.get("tagName") or rel.get("name") or "release"
         url = rel.get("url") or r["url"]
-        line = f"- [{r['nameWithOwner']} `{tag}`]({url}) — _{published[:10]}_"
+        line = f"- [{r['nameWithOwner']} `{tag}`]({url}) — _{published[:10]} · release_"
         rows.append((published, line))
     rows.sort(key=lambda x: x[0], reverse=True)
     lines = [line for _, line in rows[:limit]]
@@ -170,7 +211,7 @@ def format_releases_md(repos: list[dict], limit: int = 10) -> str:
 
 
 def format_recent_repos_md(
-    repos: list[dict], owner: str, limit: int = 10, exclude_name: str | None = None
+    repos: list[dict], owner: str, limit: int = 8, exclude_name: str | None = None
 ) -> str:
     profile_repo = f"{owner}/{owner}"
     lines: list[str] = []
@@ -190,10 +231,20 @@ def format_recent_repos_md(
 
 
 def format_rss_feed_md(feed_url: str, *, limit: int = 6, source_label: str = "Feed") -> str:
-    try:
-        feed = feedparser.parse(feed_url)
-    except Exception as exc:  # noqa: BLE001 — feedparser surface is broad
-        return f"_{source_label} error: {exc}_"
+    delay = BACKOFF_SECONDS
+    feed = None
+    last_err: str | None = None
+    for attempt in range(MAX_HTTP_ATTEMPTS):
+        try:
+            feed = feedparser.parse(feed_url)
+            break
+        except Exception as exc:  # noqa: BLE001
+            last_err = str(exc)
+            if attempt == MAX_HTTP_ATTEMPTS - 1:
+                return f"_{source_label} error: {last_err}_"
+            time.sleep(delay)
+            delay *= 2
+    assert feed is not None
     if getattr(feed, "bozo", False) and not feed.entries:
         return f"_{source_label} could not be parsed or is empty._"
     lines: list[str] = []
@@ -206,35 +257,56 @@ def format_rss_feed_md(feed_url: str, *, limit: int = 6, source_label: str = "Fe
     return "\n".join(lines)
 
 
-def format_prs_md(pr_nodes: list[dict], limit: int = 10) -> str:
+def format_prs_md(pr_nodes: list[dict], limit: int = 7) -> str:
+    """One row per repository (most recently updated authored PR per repo)."""
+    seen_repos: set[str] = set()
     lines: list[str] = []
-    for pr in pr_nodes[:limit]:
+    for pr in pr_nodes:
+        repo = pr["repository"]["nameWithOwner"]
+        if repo in seen_repos:
+            continue
+        seen_repos.add(repo)
         title = (pr.get("title") or "Pull request").replace("\r\n", " ").strip()
         if len(title) > PR_TITLE_MAX:
             title = title[: PR_TITLE_MAX - 1] + "…"
-        repo = pr["repository"]["nameWithOwner"]
         url = pr["url"]
         merged_at = pr.get("mergedAt")
         state = (pr.get("state") or "").upper()
         when = (merged_at or pr.get("updatedAt") or "")[:10]
         if merged_at:
             status = "merged"
+        elif state == "OPEN":
+            status = "open"
+        elif state == "CLOSED":
+            status = "closed"
         else:
-            status = state.lower() if state else "updated"
-        lines.append(f"- [{repo}: {title}]({url}) — _{status} {when}_")
+            status = "updated"
+        lines.append(f"- [{repo}: {title}]({url}) — _{when} · {status}_")
+        if len(lines) >= limit:
+            break
     if not lines:
         return "_No pull requests returned for this account in this pass._"
     return "\n".join(lines)
 
 
-def format_starred_md(starred_edges: list[dict], limit: int = 10) -> str:
+def format_starred_md(
+    starred_edges: list[dict],
+    limit: int = 8,
+    exclude_repos: set[str] | None = None,
+) -> str:
+    exclude_repos = exclude_repos or set()
     lines: list[str] = []
-    for edge in starred_edges[:limit]:
+    for edge in starred_edges:
         node = edge["node"]
+        nwo = node["nameWithOwner"]
+        if nwo in exclude_repos:
+            continue
         at = (edge.get("starredAt") or "")[:10]
-        lines.append(f"- [{node['nameWithOwner']}]({node['url']}) — _{at}_")
+        lines.append(f"- [{nwo}]({node['url']}) — _{at} · starred_")
+        if len(lines) >= limit:
+            break
     if not lines:
-        return "_No starred repositories returned._"
+        return "_No starred repositories returned (after excluding repos already listed under pull requests)._"
     return "\n".join(lines)
 
 
@@ -285,7 +357,7 @@ def main() -> int:
     token = os.environ.get("GITHUB_TOKEN")
     owner = resolve_owner()
 
-    medium_md = format_rss_feed_md(medium_feed, source_label="Medium")
+    medium_md = format_rss_feed_md(medium_feed, limit=5, source_label="Medium")
 
     token_hint = (
         "Set GITHUB_TOKEN for GitHub sections. Examples:\n"
@@ -322,8 +394,7 @@ def main() -> int:
 
     try:
         repos = fetch_public_repositories(owner, token)
-        pr_nodes = fetch_authored_pull_requests(owner, token)
-        starred_edges = fetch_starred_repositories(owner, token)
+        pr_nodes, starred_edges = fetch_stars_and_authored_pull_requests(owner, token)
     except (urllib.error.URLError, RuntimeError, TimeoutError, ValueError) as exc:
         print(f"GitHub GraphQL failed: {exc}", file=sys.stderr)
         return 1
@@ -331,7 +402,8 @@ def main() -> int:
     releases_md = format_releases_md(repos)
     repos_md = format_recent_repos_md(repos, owner)
     prs_md = format_prs_md(pr_nodes)
-    starred_md = format_starred_md(starred_edges)
+    pr_repos = pr_repo_names_for_star_filter(pr_nodes)
+    starred_md = format_starred_md(starred_edges, exclude_repos=pr_repos)
 
     readme_path: Path = args.readme
     text = readme_path.read_text(encoding="utf-8")
