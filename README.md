@@ -54,10 +54,12 @@ orchestration = airflow, cicd, terraform
 
 ## README specification
 
-This file follows GitHub’s [**profile README**](https://docs.github.com/en/account-and-profile/how-tos/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) convention for `ojasshukla01/ojasshukla01`. Technically it is **GFM** + **remote SVGs** + **Mermaid**. The **component manifest** below documents how that stack fits together.
+This file follows GitHub’s [**profile README**](https://docs.github.com/en/account-and-profile/how-tos/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) convention for `ojasshukla01/ojasshukla01`. Technically it is **GFM** + **remote SVGs** + **Mermaid**. Expand below for the **dependency table**, **JSON manifest**, and **render pipeline** diagram (keeps the page lighter for first-time readers).
 
 <details>
-<summary><strong>Human-readable dependency table</strong></summary>
+<summary><strong>Dependency table, manifest &amp; how rendering works</strong></summary>
+
+**Widget sources**
 
 | Component | Purpose | Upstream |
 |-----------|---------|----------|
@@ -74,7 +76,7 @@ This file follows GitHub’s [**profile README**](https://docs.github.com/en/acc
 
 **If you copy ideas into your own (e.g. public) profile repo:** replace `ojasshukla01` in URLs; self-host **github-readme-stats** if you need private-repo metrics or `include_all_commits`; keep attribution to upstream widget projects.
 
-</details>
+**JSON manifest** (illustrative)
 
 ```json
 {
@@ -106,6 +108,8 @@ flowchart LR
   P --> R[Remote SVG hosts]
   R --> S[stats streaks shields skillicons typing]
 ```
+
+</details>
 
 ---
 
@@ -151,18 +155,6 @@ flowchart LR
 | **Cloud** | [GCP](https://cloud.google.com), [AWS](https://aws.amazon.com), [Azure](https://azure.microsoft.com), [Snowflake](https://www.snowflake.com) |
 | **Data & streaming** | [Spark](https://spark.apache.org), [Databricks](https://www.databricks.com), [BigQuery](https://cloud.google.com/bigquery), [Kafka](https://kafka.apache.org), [Airflow](https://airflow.apache.org), [dbt](https://www.getdbt.com), [DuckDB](https://duckdb.org) |
 | **Delivery** | [Docker](https://www.docker.com), [Terraform](https://www.terraform.io), [GitHub Actions](https://github.com/features/actions), [Kubernetes](https://kubernetes.io) |
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white" alt="SQL" />
-<img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" alt="Kafka" />
-<img src="https://img.shields.io/badge/dbt-FF6944?style=flat-square&logo=dbt&logoColor=white" alt="dbt" />
-<img src="https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black" alt="DuckDB" />
-<img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" alt="Terraform" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-
-</div>
 
 ---
 
@@ -277,6 +269,6 @@ Open to **senior data engineering** roles, **consulting**, **technical writing**
 
 <br /><br />
 
-<sub>Layout reference for maintainers with repo access. Widgets are third-party; this repository’s source is not public unless you change visibility. See GitHub docs for profile README + visibility.</sub>
+<sub>Third-party widgets retain their own licenses; attribute upstream projects if you reuse patterns from the manifest above.</sub>
 
 </div>
