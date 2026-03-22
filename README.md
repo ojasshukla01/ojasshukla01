@@ -2,7 +2,7 @@
 
 <pre>
 ┌────────────────────────────────────────────────┐
-│ ojasshukla01/ojasshukla01 · PRIVATE · README  │
+│ ojasshukla01 · profile README · main          │
 │ senior_data_engineer · data + OSS              │
 └────────────────────────────────────────────────┘
 </pre>
@@ -22,9 +22,6 @@
 [![Profile views](https://komarev.com/ghpvc/?username=ojasshukla01&label=profile%20views&color=0e75b6&style=flat-square)](https://github.com/ojasshukla01)
 
 </div>
-
-> **Repository visibility:** This repo (`ojasshukla01/ojasshukla01`) is **private**. Only you (and collaborators you invite) can browse its files on GitHub.  
-> **Profile README rule:** GitHub only shows a profile `README.md` on your **public** profile when the **username-named repository is public**. If this repo stays private, this README **will not appear** on [your public profile](https://github.com/ojasshukla01) for other users — see [Managing your profile README](https://docs.github.com/en/account-and-profile/how-tos/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme). To keep the README **hidden** but still use this file for yourself or collaborators, leaving it private is correct. To **show** it to everyone, make this repository **public** (your other projects can stay private).
 
 ---
 
@@ -57,9 +54,7 @@ orchestration = airflow, cicd, terraform
 
 ## README specification
 
-This file lives in the [**profile repository**](https://docs.github.com/en/account-and-profile/how-tos/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) `ojasshukla01/ojasshukla01`, which is **private**: there is **no public “View code”** link for strangers, and **badges that call the GitHub API for this repo** (for example “last commit” on *this* repo) will **not** work for anonymous viewers without your own Shields token.
-
-Technically it is plain **GFM** + **remote SVGs** + **Mermaid**. The **component manifest** below documents how that stack fits together (useful for you or anyone with repo access; it is **not** an invitation to clone this private repo from the open internet).
+This file follows GitHub’s [**profile README**](https://docs.github.com/en/account-and-profile/how-tos/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) convention for `ojasshukla01/ojasshukla01`. Technically it is **GFM** + **remote SVGs** + **Mermaid**. The **component manifest** below documents how that stack fits together.
 
 <details>
 <summary><strong>Human-readable dependency table</strong></summary>
@@ -85,9 +80,6 @@ Technically it is plain **GFM** + **remote SVGs** + **Mermaid**. The **component
 {
   "kind": "github-profile-readme",
   "repository": "ojasshukla01/ojasshukla01",
-  "visibility": "private",
-  "public_profile_readme": false,
-  "note": "GitHub shows profile README only when username repo is public; see GitHub docs.",
   "markdown": "GitHub-Flavored-Markdown",
   "dynamic_assets": [
     { "id": "typing-hero", "format": "svg", "host": "readme-typing-svg.herokuapp.com" },
@@ -281,7 +273,7 @@ Open to **senior data engineering** roles, **consulting**, **technical writing**
 
 <br />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=15&duration=3800&pause=1800&color=58A6FF&center=true&vCenter=true&width=640&lines=Pipelines+as+products;Docs+as+APIs;Private+profile+repo+%E2%80%94+share+via+portfolio+%2F+OSS" alt="Footer typing" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=15&duration=3800&pause=1800&color=58A6FF&center=true&vCenter=true&width=640&lines=Pipelines+as+products;Docs+as+APIs;Thanks+for+stopping+by" alt="Footer typing" />
 
 <br /><br />
 
