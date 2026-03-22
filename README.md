@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=Ojas+Shukla;Senior+Data+Engineer;Cloud-Native+Architect" alt="Typing Animation" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=780&lines=Ojas+Shukla;Senior+Data+Engineer;GCP+%E2%80%A2+AWS+%E2%80%A2+Kafka+%E2%80%A2+dbt+%E2%80%A2+Snowflake+%E2%80%A2+DuckDB+%7C+Real-time+%26+batch+%7C+OSS" alt="Typing Animation" />
 
 <br>
 
@@ -29,7 +29,7 @@
 
 ## About Me
 
-> **Results-driven Senior Data Engineer** with **6+ years** of experience designing and scaling cloud-native data ecosystems across **AWS**, **GCP**, **Azure**, and **Snowflake**. Currently delivering enterprise-scale data observability, governance, and reporting pipelines while driving innovation in AI/ML infrastructure and open-source contributions.
+> **Senior Data Engineer** with **6+ years** designing cloud-native data platforms on **AWS**, **GCP**, **Azure**, and **Snowflake**—heavy on **Kafka**, **dbt**, **DuckDB**, and lakehouse patterns. I build **real-time and batch** pipelines, observability and governance, and **open-source** tooling: **schema-aware synthetic data** ([Data Forge](https://github.com/ojasshukla01/data-forge)), **safe SQL for AI agents via MCP** ([SQLSense](https://github.com/ojasshukla01/sqlsense)), and a **local-first token lifecycle CLI** ([token-doctor](https://github.com/ojasshukla01/token-doctor)).
 
 </div>
 
@@ -93,6 +93,9 @@
 <a href="https://getdbt.com" target="_blank">
   <img src="https://img.shields.io/badge/-dbt-FF6944?style=for-the-badge&logo=dbt&logoColor=white&labelColor=FF6944" alt="dbt" />
 </a>
+<a href="https://duckdb.org" target="_blank">
+  <img src="https://img.shields.io/badge/-DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black&labelColor=FFF000" alt="DuckDB" />
+</a>
 
 <br><br>
 
@@ -118,6 +121,8 @@
 
 ## Featured Projects
 
+*Aligned with [pinned repositories](https://github.com/ojasshukla01?tab=repositories) and flagship data-engineering work.*
+
 <table>
 <tr>
 <td width="50%" align="left">
@@ -128,12 +133,11 @@
 
 </div>
 
-**ESG Data Pipeline & Analytics Platform**
+**ESG data pipeline and analytics**
 
 - Real-time ESG metrics dashboard
-- Automated PDF reporting system
+- Automated PDF reporting
 - End-to-end data quality monitoring
-- Scalable data architecture
 
 **Tech Stack:** `Streamlit` `FastAPI` `DuckDB` `Python`
 
@@ -142,18 +146,17 @@
 
 <div align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/warehouse.png" width="20" height="20" /> [Lakehouse360](https://github.com/ojasshukla01/lakehouse360)
+### <img src="https://img.icons8.com/color/24/000000/combo-chart.png" width="20" height="20" /> [Data Forge](https://github.com/ojasshukla01/data-forge)
 
 </div>
 
-**End-to-End Data Engineering Platform**
+**Time-aware synthetic data platform**
 
-- Complete data ingestion and transformation pipeline
-- Advanced analytics and visualization capabilities
-- Comprehensive data quality framework
-- Modular architecture design
+- Schema-driven generation (DDL, JSON Schema, OpenAPI); FKs and business rules
+- Snapshot, incremental, and CDC-style flows; exports to Parquet, warehouses, and dbt seeds
+- Next.js product UI + Python API—local-first, privacy-safe test data
 
-**Tech Stack:** `Python` `DuckDB` `Streamlit` `dbt`
+**Tech Stack:** `Python` `Next.js` `FastAPI` `DuckDB` `PostgreSQL` `Snowflake` `BigQuery`
 
 </td>
 </tr>
@@ -166,12 +169,9 @@
 
 </div>
 
-**AI-Powered Learning Roadmap Generator**
+**AI-powered learning roadmaps**
 
-- Personalized learning paths using advanced LLMs
-- Dynamic curriculum generation
-- Comprehensive skill gap analysis
-- Adaptive learning recommendations
+- Personalized paths with LLMs, skill-gap analysis, adaptive recommendations
 
 **Tech Stack:** `Streamlit` `LangChain` `DuckDB` `OpenAI`
 
@@ -180,18 +180,49 @@
 
 <div align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/analytics.png" width="20" height="20" /> [Data Engineering Case Studies](https://github.com/ojasshukla01/data-engineering-case-studies)
+### <img src="https://img.icons8.com/color/24/000000/password.png" width="20" height="20" /> [token-doctor](https://github.com/ojasshukla01/token-doctor)
 
 </div>
 
-**Real-World Data Engineering Solutions**
+**Local-first API token lifecycle CLI**
 
-- Production-ready batch and streaming pipelines
-- Performance optimization techniques
-- Enterprise-scale architecture patterns
-- Comprehensive documentation
+- Validate tokens, infer JWT expiry, track 50+ platform changelogs and sunsets
+- OS keychain storage, ICS calendar exports, Markdown/JSON reports—no telemetry
 
-**Tech Stack:** `dbt` `GCP` `BigQuery` `Airflow`
+**Tech Stack:** `Python` `SQLite` CLI
+
+</td>
+</tr>
+<tr>
+<td width="50%" align="left">
+
+<div align="center">
+
+### <img src="https://img.icons8.com/color/24/000000/shield.png" width="20" height="20" /> [SQLSense](https://github.com/ojasshukla01/sqlsense)
+
+</div>
+
+**Safe, audited SQL for AI agents (MCP)**
+
+- Guardrails, read-only by default, audit log, auto-`LIMIT`, column blocklists
+- SQLite, PostgreSQL, SQL Server, Snowflake
+
+**Tech Stack:** `Python` `MCP`
+
+</td>
+<td width="50%" align="left">
+
+<div align="center">
+
+### <img src="https://img.icons8.com/color/24/000000/hospital.png" width="20" height="20" /> [Health Analytics BI Dashboard](https://github.com/ojasshukla01/health-analytics-bi-dashboard)
+
+</div>
+
+**Healthcare analytics and BI**
+
+- KPI dashboards and reporting patterns with Power BI
+
+**Tech Stack:** `Power BI` `Analytics`
 
 </td>
 </tr>
@@ -205,7 +236,7 @@
 
 <div align="center">
 
-### <img src="https://img.icons8.com/color/24/000000/portfolio.png" width="20" height="20" /> [Professional Portfolio](https://ojas-de-portfolio.vercel.app/resume)
+### <img src="https://img.icons8.com/color/24/000000/portfolio.png" width="20" height="20" /> [Professional Portfolio](https://portfolio-ojas-shuklas-projects-7dc8ad06.vercel.app/)
 **Interactive Data Engineering Showcase**
 
 Modern, responsive design with integrated project galleries, case studies, and professional experience details.
@@ -225,11 +256,27 @@ In-depth technical articles, best practices, tutorials, industry insights on dat
 
 ---
 
-## Additional Projects
+## More Repositories
 
-- **<img src="https://img.icons8.com/color/24/000000/hospital.png" width="16" height="16" /> [Health BI Dashboard](https://github.com/ojasshukla01/health-analytics-bi-dashboard)** - Healthcare KPIs with Power BI
-- **<img src="https://img.icons8.com/color/24/000000/play.png" width="16" height="16" /> [BharatStream SQL](https://github.com/ojasshukla01/bharatstream-sql)** - SQL backend with analytics
-- **<img src="https://img.icons8.com/color/24/000000/video.png" width="16" height="16" /> [Streaming Platform](https://github.com/ojasshukla01/streaming-platform)** - Modern video streaming with React
+**Data platforms and pipelines**
+
+- **<img src="https://img.icons8.com/color/24/000000/warehouse.png" width="16" height="16" /> [Lakehouse360](https://github.com/ojasshukla01/lakehouse360)** — Ingestion, transformation, data quality, Streamlit + DuckDB + dbt
+- **<img src="https://img.icons8.com/color/24/000000/analytics.png" width="16" height="16" /> [Data Engineering Case Studies](https://github.com/ojasshukla01/data-engineering-case-studies)** — Batch/streaming patterns, BigQuery, Airflow, dbt
+- **<img src="https://img.icons8.com/color/24/000000/map-marker.png" width="16" height="16" /> [auto-map-au](https://github.com/ojasshukla01/auto-map-au) (AutoMap360)** — Suburb→region geospatial pipeline (AU, NZ, IN), shapefiles, Streamlit QA
+- **<img src="https://img.icons8.com/color/24/000000/database.png" width="16" height="16" /> [data-pipeline](https://github.com/ojasshukla01/data-pipeline)** — Data engineering pipeline project
+- **<img src="https://img.icons8.com/color/24/000000/play.png" width="16" height="16" /> [BharatStream SQL](https://github.com/ojasshukla01/bharatstream-sql)** — SQL backend with analytics
+- **<img src="https://img.icons8.com/color/24/000000/video.png" width="16" height="16" /> [streaming-platform](https://github.com/ojasshukla01/streaming-platform)** — Video streaming stack with React
+
+**Apps, tooling, and experiments**
+
+- **<img src="https://img.icons8.com/color/24/000000/edit.png" width="16" height="16" /> [prompt-hub](https://github.com/ojasshukla01/prompt-hub)** — Community-driven prompt sharing and management
+- **<img src="https://img.icons8.com/color/24/000000/code.png" width="16" height="16" /> [git-activity-simulator](https://github.com/ojasshukla01/git-activity-simulator)** — CLI to simulate commits, PRs, and activity for demos and learning
+- **<img src="https://img.icons8.com/color/24/000000/portfolio.png" width="16" height="16" /> [ojas-portfolio](https://github.com/ojasshukla01/ojas-portfolio)** — Portfolio site source
+- **<img src="https://img.icons8.com/color/24/000000/edit.png" width="16" height="16" /> [sop_generator_app](https://github.com/ojasshukla01/sop_generator_app)** / **[sop-generator-frontend](https://github.com/ojasshukla01/sop-generator-frontend)** — SOP generator (Python + JS)
+- **<img src="https://img.icons8.com/color/24/000000/shield.png" width="16" height="16" /> [web-bases-analysis-intrusion-detection-system](https://github.com/ojasshukla01/web-bases-analysis-intrusion-detection-system)** — Web-based intrusion detection analysis
+- **<img src="https://img.icons8.com/color/24/000000/code.png" width="16" height="16" /> [sql-injection](https://github.com/ojasshukla01/sql-injection)** — SQL injection lab (C#)
+- **<img src="https://img.icons8.com/color/24/000000/settings.png" width="16" height="16" /> [Torrent_automate](https://github.com/ojasshukla01/Torrent_automate)** — Automation utilities
+- **<img src="https://img.icons8.com/color/24/000000/brain.png" width="16" height="16" /> [hug-lite](https://github.com/ojasshukla01/hug-lite)** — Lightweight Hugging Face–related experiment
 
 ---
 
