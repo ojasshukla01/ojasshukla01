@@ -20,8 +20,39 @@
 <br><br>
 
 [![Profile Views](https://komarev.com/ghpvc/?username=ojasshukla01&label=Profile%20views&color=0e75b6&style=flat-square)](https://github.com/ojasshukla01)
+[![Profile README last commit](https://img.shields.io/github/last-commit/ojasshukla01/ojasshukla01?label=profile%20README%20updated&logo=github&color=1a1b27&style=flat-square)](https://github.com/ojasshukla01/ojasshukla01/commits/main)
 
 </div>
+
+---
+
+### Navigate
+
+[About](#about-me) · [Architecture view](#data-platform-mental-model) · [Stack](#technical-expertise) · [Featured](#featured-projects) · [All repos](#more-repositories) · [Analytics](#github-analytics) · [Connect](#connect-with-me)
+
+---
+
+<details>
+<summary><strong>Contributor note</strong> — how this profile README is built (fork-friendly)</summary>
+
+This file is plain **GitHub Flavored Markdown** in the special repository [`ojasshukla01/ojasshukla01`](https://github.com/ojasshukla01/ojasshukla01). Nothing here is a proprietary template; it is assembled from small, composable pieces you can reuse:
+
+| Piece | Role | Source |
+|------|------|--------|
+| Typing header / footer | Animated SVG text | [DenverCoder1/readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg) |
+| Skill strip | One-glance toolchain | [skillicons.dev](https://skillicons.dev) |
+| Stats / top languages | Live GitHub API (public instance; rate limits apply) | [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) |
+| Contribution streak | Streak card (Demolab mirror) | [DenverCoder1/github-readme-streak-stats](https://github.com/DenverCoder1/github-readme-streak-stats) |
+| Activity graph | Commit timeline SVG | [Ashutosh00710/github-readme-activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph) |
+| Badges | Version / link chips | [Shields.io](https://shields.io) |
+| Profile views | Hit counter | [antonkomarev/github-profile-views-counter](https://github.com/antonkomarev/github-profile-views-counter) |
+| Diagram below | Rendered natively by GitHub | [Mermaid](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/) |
+
+**Icons:** Section markers use **Unicode emoji** only (no hotlinked icon CDNs), so the page stays readable even when third-party image proxies fail.
+
+**If you fork this layout:** swap `username` in URLs, self-host **github-readme-stats** if you need `include_all_commits` or private-repo metrics (requires a token), and keep attributions to the upstream projects above.
+
+</details>
 
 ---
 
@@ -33,11 +64,51 @@
 
 </div>
 
+```text
+# quick context (same story, systems shape)
+role            = senior_data_engineer
+lanes           = streaming | batch | governance | synthetic_data | agent_safety
+warehouses      = snowflake | bigquery | duckdb | lakehouse
+orchestration   = airflow | cicd | infra_as_code
+```
+
+---
+
+## Data platform mental model
+
+High-level pattern I use when designing pipelines and platforms (illustrative, not project-specific):
+
+```mermaid
+flowchart LR
+  subgraph sources[Sources]
+    A[Events APIs files SaaS]
+  end
+  subgraph lake[Lakehouse]
+    B[Bronze raw append]
+    C[Silver conformed tested]
+    D[Gold metrics marts]
+  end
+  subgraph serve[Serve and observe]
+    E[BI apps reverse ETL]
+    F[Quality lineage SLAs]
+  end
+  A --> B --> C --> D
+  D --> E
+  C -.-> F
+  D -.-> F
+```
+
 ---
 
 ## Technical Expertise
 
 <div align="center">
+
+**Stack snapshot** (icons are generated from [skillicons.dev](https://skillicons.dev); not every tool above has an icon there)
+
+<img src="https://skillicons.dev/icons?i=py,gcp,aws,docker,kubernetes,terraform,kafka,postgres,nextjs,react,tailwind,git,githubactions,fastapi&perline=8" alt="Skill icons: Python, GCP, AWS, Docker, Kubernetes, Terraform, Kafka, Postgres, Next.js, React, Tailwind, Git, GitHub Actions, FastAPI" />
+
+<br><br>
 
 ### 💻 Programming Languages
 <a href="https://python.org" target="_blank">
@@ -121,7 +192,7 @@
 
 ## Featured Projects
 
-*Aligned with [pinned repositories](https://github.com/ojasshukla01?tab=repositories) and flagship data-engineering work.*
+*Aligned with [pinned repositories](https://github.com/ojasshukla01?tab=repositories) and flagship data-engineering work. On any public repo here: **issues and PRs welcome** where the project has a license and contribution guidelines.*
 
 <table>
 <tr>
@@ -300,6 +371,12 @@ In-depth technical articles, best practices, tutorials, industry insights on dat
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojasshukla01&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&custom_title=Most%20Used%20Languages" alt="Top Languages" />
 </a>
 
+<br><br>
+
+<a href="https://github.com/ojasshukla01">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ojasshukla01&theme=tokyo-night&color=00d4ff&line=00d4ff&point=ffffff&area=true&hide_border=true&custom_title=Contribution%20timeline%20(last%20year)" alt="GitHub contribution activity graph" />
+</a>
+
 </div>
 
 ---
@@ -457,13 +534,11 @@ If you find my projects helpful or enjoy my content, consider supporting my work
 
 <div align="center">
 
----
-
 > *"Excellence in data engineering is not just about building systems—it's about architecting solutions that scale, adapt, and deliver measurable business value."*
 
 **Ojas Shukla** | Senior Data Engineer
 
----
+<br>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=4000&pause=2000&color=00D4FF&center=true&vCenter=true&width=600&lines=Building+the+future+of+data+engineering;One+pipeline+at+a+time;Let's+connect+and+collaborate!" alt="Footer Animation" />
 
