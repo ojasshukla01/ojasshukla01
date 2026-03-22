@@ -2,7 +2,7 @@
 
 <pre>
 ┌────────────────────────────────────────────────┐
-│ ojasshukla01 · profile README · main          │
+│ ojasshukla01 · profile README · main           │
 │ senior_data_engineer · data + OSS              │
 └────────────────────────────────────────────────┘
 </pre>
