@@ -27,7 +27,7 @@
 
 ### Navigate
 
-[Overview](#overview) · [README spec](#readme-specification) · [Platform model](#data-platform-model) · [Tooling](#tooling) · [Flagship repos](#flagship-repositories) · [Full index](#repository-index) · [Presence](#online-presence) · [Activity](#activity) · [Extras](#extras) · [Principles](#operating-principles) · [Contact](#contact-and-availability)
+[Overview](#overview) · [README spec](#readme-specification) · [Data Forge model](#data-forge-platform-model) · [Tooling](#tooling) · [Flagship repos](#flagship-repositories) · [Full index](#repository-index) · [Presence](#online-presence) · [Activity](#activity) · [Extras](#extras) · [Principles](#operating-principles) · [Contact](#contact-and-availability)
 
 ---
 
@@ -116,28 +116,47 @@ flowchart LR
 
 ---
 
-## Data platform model
+## Data Forge platform model
 
-Reference **lakehouse** shape I use when designing ingest → serve stacks (illustrative):
+[**Data Forge**](https://github.com/ojasshukla01/data-forge) is a **time-aware synthetic data** platform: you describe **schemas and rules** (DDL, JSON Schema, OpenAPI, domain packs), pick **generation modes** (snapshot, incremental, CDC-style, bronze / silver / gold), and get **privacy-safe, relational test data** out to files and warehouses—with a **Next.js** UI and **Python / FastAPI** API. The diagram is a simplified view of how those pieces connect (not every adapter is shown):
 
 ```mermaid
-flowchart LR
-  subgraph sources[Sources]
-    A[Events APIs files SaaS]
+flowchart TB
+  subgraph define[Define]
+    SCH[DDL JSON Schema OpenAPI]
+    PACK[Domain packs and business rules]
+    SCN[Scenarios and reproducible runs]
   end
-  subgraph lake[Lakehouse]
-    B[Bronze raw append]
-    C[Silver conformed tested]
-    D[Gold metrics marts]
+  subgraph core[Data Forge engine]
+    GEN[Generate relational time-consistent rows]
+    CDC[Snapshot incremental CDC style flows]
+    FX[Drift messiness anomaly profiles]
   end
-  subgraph serve[Serve observe]
-    E[BI apps reverse ETL]
-    F[Quality lineage SLAs]
+  subgraph ship[Export and load]
+    FILES[Parquet JSON JSONL CSV SQL inserts]
+    WH[DuckDB Postgres SQLite Snowflake BigQuery]
   end
-  A --> B --> C --> D
-  D --> E
-  C -.-> F
-  D -.-> F
+  subgraph product[Product surface]
+    API[FastAPI service]
+    UI[Next.js app]
+  end
+  subgraph ecosystem[Downstream tooling]
+    DBT[dbt seeds and tests]
+    GE[Great Expectations]
+    AF[Airflow style orchestration]
+  end
+  SCH --> GEN
+  PACK --> GEN
+  SCN --> GEN
+  GEN --> CDC
+  GEN --> FX
+  GEN --> FILES
+  FILES --> WH
+  UI --> API
+  API --> GEN
+  WH -.-> DBT
+  GEN -.-> GE
+  FILES -.-> AF
 ```
 
 ---
