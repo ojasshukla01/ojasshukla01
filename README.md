@@ -74,7 +74,7 @@ Sections below are **updated automatically** by a GitHub Action (**GitHub GraphQ
 Pull requests you **authored** (including on your own repositories), newest update first — populated using GitHub search (`is:pr author:<login>`).
 
 <!-- profile_prs starts -->
-- [ojasshukla01/data-forge: feat: enhance documentation and CI/CD processes](https://github.com/ojasshukla01/data-forge/pull/13) — _open 2026-03-22_
+- [ojasshukla01/data-forge: feat: enhance documentation and CI/CD processes](https://github.com/ojasshukla01/data-forge/pull/13) — _merged 2026-03-22_
 - [ojasshukla01/data-forge: feat: update documentation and enhance API with new features](https://github.com/ojasshukla01/data-forge/pull/12) — _merged 2026-03-21_
 - [ojasshukla01/data-forge: Add/new features](https://github.com/ojasshukla01/data-forge/pull/10) — _merged 2026-03-17_
 - [ojasshukla01/data-forge: feat: enhance artifacts and runs pages with improved filtering and us…](https://github.com/ojasshukla01/data-forge/pull/11) — _merged 2026-03-17_
