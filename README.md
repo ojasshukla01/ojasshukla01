@@ -1,124 +1,139 @@
-<div align="center">
+<div id="quick-links" align="center">
 
-<pre>
-┌────────────────────────────────────────────────┐
-│ ojasshukla01 · profile README · main           │
-│ senior_data_engineer · data + OSS              │
-└────────────────────────────────────────────────┘
-</pre>
+<h1>Ojas Shukla</h1>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=820&lines=Ojas+Shukla;Senior+Data+Engineer;Streaming+%26+batch+%7C+Lakehouse+%7C+Governance;Open+source+%E2%80%94+synthetic+data+%7C+agent-safe+SQL+%7C+dev+tooling" alt="Animated headline" />
+<p><strong>Senior Data Engineer</strong></p>
+
+<p>Streaming and batch analytics, lakehouse architecture, data governance, synthetic data, and agent-safe SQL.</p>
+
+<p align="center">
+  <a href="https://portfolio-ojas-shuklas-projects-7dc8ad06.vercel.app/">Portfolio</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/ojasshukla01">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="https://medium.com/@ojasshukla01">Medium</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/ojasshukla01?tab=repositories">Repositories</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:ojasshukla01@gmail.com?subject=Inquiry%20%E2%80%94%20data%20engineering">Email</a>
+</p>
 
 <br />
 
-<a href="https://portfolio-ojas-shuklas-projects-7dc8ad06.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-<a href="https://medium.com/@ojasshukla01" target="_blank"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
-<a href="https://www.linkedin.com/in/ojasshukla01" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:ojasshukla01@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://github.com/ojasshukla01?tab=repositories" target="_blank"><img src="https://img.shields.io/badge/Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" /></a>
-
-<br /><br />
-
-[![Profile views](https://komarev.com/ghpvc/?username=ojasshukla01&label=profile%20views&color=0e75b6&style=flat-square)](https://github.com/ojasshukla01)
+<sub>This README appears on your GitHub profile when the repository <code>ojasshukla01/ojasshukla01</code> is public. <a href="https://docs.github.com/en/account-and-profile/how-tos/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme">Documentation</a>.</sub>
 
 </div>
 
 ---
 
-### Navigate
+### Contents
 
-[Overview](#overview) · [README spec](#readme-specification) · [Data Forge model](#data-forge-platform-model) · [Tooling](#tooling) · [Flagship repos](#flagship-repositories) · [Full index](#repository-index) · [Presence](#online-presence) · [Activity](#activity) · [Extras](#extras) · [Principles](#operating-principles) · [Contact](#contact-and-availability)
+[Overview](#overview) · [Recent activity](#recent-activity) · [Flagship repositories](#flagship-repositories) · [Data Forge](#data-forge-platform-model) · [Technical stack](#technical-stack) · [Repository index](#repository-index) · [Online presence](#online-presence) · [Operating principles](#operating-principles) · [Contact](#contact) · [Document notes](#document-notes)
 
 ---
 
 ## Overview
 
-Senior **data engineer** (6+ years) building **cloud-native** analytics platforms on **AWS**, **GCP**, **Azure**, and **Snowflake**, with strong **Kafka**, **dbt**, **DuckDB**, and **lakehouse** work. I ship **real-time and batch** pipelines, **observability and governance**, and **open-source** tools:
+Senior data engineer with **six years’ experience** delivering **cloud-native** analytics platforms on **AWS**, **GCP**, **Azure**, and **Snowflake**, with depth in **Apache Kafka**, **dbt**, **DuckDB**, and **lakehouse** patterns. Focus areas include **real-time and batch** data pipelines, **observability**, **data governance**, and **open-source** tooling.
 
-| Area | Project | Role |
-|------|---------|------|
-| Synthetic data | [**Data Forge**](https://github.com/ojasshukla01/data-forge) | Schema-aware, time-consistent test data for DBs, APIs, pipelines |
-| Agent safety | [**SQLSense**](https://github.com/ojasshukla01/sqlsense) | MCP server — guardrailed, audited SQL for AI agents |
-| Developer UX | [**token-doctor**](https://github.com/ojasshukla01/token-doctor) | Local-first CLI — tokens, changelogs, sunsets, calendars |
+| Focus | Project | Description |
+|------|---------|-------------|
+| Synthetic data | [**Data Forge**](https://github.com/ojasshukla01/data-forge) | Schema-aware, time-consistent test data for databases, APIs, and pipelines |
+| Agent safety | [**SQLSense**](https://github.com/ojasshukla01/sqlsense) | MCP server for guardrailed, audited SQL execution for AI agents |
+| Developer tooling | [**token-doctor**](https://github.com/ojasshukla01/token-doctor) | Local-first CLI for tokens, changelogs, deprecation windows, and calendars |
 
 ```ini
-; machine-readable shorthand (illustrative)
+; Machine-readable summary (illustrative)
 [profile]
 title   = senior_data_engineer
-lanes   = streaming, batch, governance, synthetic_data, agent_safety
+domains = streaming, batch, governance, synthetic_data, agent_safety
 stores  = snowflake, bigquery, duckdb, lakehouse
-orchestration = airflow, cicd, terraform
+delivery = airflow, cicd, terraform
 ```
 
 ---
 
-## README specification
+## Recent activity
 
-This file follows GitHub’s [**profile README**](https://docs.github.com/en/account-and-profile/how-tos/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) convention for `ojasshukla01/ojasshukla01`. Technically it is **GFM** + **remote SVGs** + **Mermaid**. Expand below for the **dependency table**, **JSON manifest**, and **render pipeline** diagram (keeps the page lighter for first-time readers).
+Sections below are **updated automatically** by a GitHub Action (**GitHub GraphQL** for releases, pull requests, stars, and repo activity; **RSS** for Medium), using the marker pattern from [Building a self-updating profile README for GitHub](https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/).
 
-<details>
-<summary><strong>Dependency table, manifest &amp; how rendering works</strong></summary>
+### Latest GitHub releases
 
-**Widget sources**
+<!-- profile_releases starts -->
+- [ojasshukla01/data-forge `v0.1.0`](https://github.com/ojasshukla01/data-forge/releases/tag/v0.1.0) — _2026-03-15_
+<!-- profile_releases ends -->
 
-| Component | Purpose | Upstream |
-|-----------|---------|----------|
-| Animated lines | Hero / footer copy | [DenverCoder1/readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg) |
-| Skill strip | Compact toolchain | [skillicons.dev](https://skillicons.dev) |
-| Stats & languages | GitHub API cards (public tier; rate limits) | [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) |
-| Streak | Contribution streak | [DenverCoder1/github-readme-streak-stats](https://github.com/DenverCoder1/github-readme-streak-stats) (Demolab mirror) |
-| Timeline | Year activity graph | [Ashutosh00710/github-readme-activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph) |
-| Chips | Links & metadata | [Shields.io](https://shields.io) |
-| Views | Profile hit counter | [antonkomarev/github-profile-views-counter](https://github.com/antonkomarev/github-profile-views-counter) |
-| Diagrams | Native render | [Mermaid on GitHub](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/) |
-| Snake (optional) | SVGs on `output` branch only — **not embedded** here (private repo + raw URLs often 403 for visitors) | [Platane/snk](https://github.com/Platane/snk) · [workflow](.github/workflows/snake.yml) |
-| Music | Typing SVG (reliable) | [readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg) |
+### Latest on Medium
 
-**Emoji-only section markers** below avoid brittle hotlinked icon PNGs.
+<!-- profile_medium starts -->
+- [The Architecture of Curiosity: Crafting a Data Engineering Portfolio from Invisible Work](https://medium.com/@ojasshukla01/the-architecture-of-curiosity-crafting-a-data-engineering-portfolio-from-invisible-work-d58ff32e3ee9)
+<!-- profile_medium ends -->
 
-**If you copy ideas into your own (e.g. public) profile repo:** replace `ojasshukla01` in URLs; self-host **github-readme-stats** if you need private-repo metrics or `include_all_commits`; keep attribution to upstream widget projects.
+### Recent pull requests
 
-**JSON manifest** (illustrative)
+Pull requests you **authored** (including on your own repositories), newest update first — populated using GitHub search (`is:pr author:<login>`).
 
-```json
-{
-  "kind": "github-profile-readme",
-  "repository": "ojasshukla01/ojasshukla01",
-  "markdown": "GitHub-Flavored-Markdown",
-  "dynamic_assets": [
-    { "id": "typing-hero", "format": "svg", "host": "readme-typing-svg.herokuapp.com" },
-    { "id": "typing-footer", "format": "svg", "host": "readme-typing-svg.herokuapp.com" },
-    { "id": "skill-icons", "format": "svg", "host": "skillicons.dev" },
-    { "id": "github-stats", "format": "svg", "host": "github-readme-stats.vercel.app" },
-    { "id": "streak", "format": "svg", "host": "streak-stats.demolab.com" },
-    { "id": "top-langs", "format": "svg", "host": "github-readme-stats.vercel.app" },
-    { "id": "activity-graph", "format": "svg", "host": "github-readme-activity-graph.vercel.app" },
-    { "id": "profile-views", "format": "svg", "host": "komarev.com" },
-    { "id": "music-extras", "format": "svg", "host": "readme-typing-svg.herokuapp.com" }
-  ],
-  "static_semantics": ["mermaid", "tables", "details-summary", "fenced-code-blocks"]
-}
-```
+<!-- profile_prs starts -->
+- [ojasshukla01/data-forge: feat: enhance documentation and CI/CD processes](https://github.com/ojasshukla01/data-forge/pull/13) — _open 2026-03-22_
+- [ojasshukla01/data-forge: feat: update documentation and enhance API with new features](https://github.com/ojasshukla01/data-forge/pull/12) — _merged 2026-03-21_
+- [ojasshukla01/data-forge: Add/new features](https://github.com/ojasshukla01/data-forge/pull/10) — _merged 2026-03-17_
+- [ojasshukla01/data-forge: feat: enhance artifacts and runs pages with improved filtering and us…](https://github.com/ojasshukla01/data-forge/pull/11) — _merged 2026-03-17_
+- [ojasshukla01/data-forge: feat: add reduced-memory snapshot mode for generation results](https://github.com/ojasshukla01/data-forge/pull/9) — _merged 2026-03-17_
+- [ojasshukla01/data-forge: Add/new features](https://github.com/ojasshukla01/data-forge/pull/8) — _merged 2026-03-16_
+- [ojasshukla01/data-forge: Enhance row planning and cardinality management in data generation](https://github.com/ojasshukla01/data-forge/pull/7) — _merged 2026-03-16_
+- [ojasshukla01/data-forge: Update .gitignore, pre-commit configuration, and CI workflow](https://github.com/ojasshukla01/data-forge/pull/6) — _merged 2026-03-15_
+- [ojasshukla01/data-forge: Add environment configuration, enhance CI workflow, and improve docum…](https://github.com/ojasshukla01/data-forge/pull/3) — _merged 2026-03-11_
+- [ojasshukla01/data-forge: Enhance CI workflow, update documentation, and improve type safety](https://github.com/ojasshukla01/data-forge/pull/5) — _merged 2026-03-11_
+<!-- profile_prs ends -->
 
-### How GitHub turns this file into a page
+### Recently starred repositories
 
-```mermaid
-flowchart LR
-  U[Reader] --> GH[GitHub GFM renderer]
-  GH --> T[Tables lists headings]
-  GH --> M[Mermaid engine]
-  GH --> P[Camo proxy]
-  P --> R[Remote SVG hosts]
-  R --> S[stats streaks shields skillicons typing]
-```
+Public repositories you starred, most recent first.
 
-</details>
+<!-- profile_starred starts -->
+- [duckdb/duckdb](https://github.com/duckdb/duckdb) — _2026-03-03_
+- [DataExpert-io/data-engineer-handbook](https://github.com/DataExpert-io/data-engineer-handbook) — _2026-03-03_
+- [cloudcommunity/Free-Certifications](https://github.com/cloudcommunity/Free-Certifications) — _2026-03-03_
+- [raj8github/sqlsense](https://github.com/raj8github/sqlsense) — _2026-03-03_
+<!-- profile_starred ends -->
+
+### Recently updated public repositories
+
+<!-- profile_repos starts -->
+- [ojasshukla01/data-forge](https://github.com/ojasshukla01/data-forge) — _2026-03-22_
+- [ojasshukla01/token-doctor](https://github.com/ojasshukla01/token-doctor) — _2026-03-05_
+- [ojasshukla01/sqlsense](https://github.com/ojasshukla01/sqlsense) — _2026-03-04_
+- [ojasshukla01/Torrent_automate](https://github.com/ojasshukla01/Torrent_automate) — _2026-02-28_
+- [ojasshukla01/data-pipeline](https://github.com/ojasshukla01/data-pipeline) — _2026-01-31_
+- [ojasshukla01/llm-learning-path-generator](https://github.com/ojasshukla01/llm-learning-path-generator) — _2025-10-11_
+- [ojasshukla01/hug-lite](https://github.com/ojasshukla01/hug-lite) — _2025-07-15_
+- [ojasshukla01/auto-map-au](https://github.com/ojasshukla01/auto-map-au) — _2025-06-13_
+- [ojasshukla01/git-activity-simulator](https://github.com/ojasshukla01/git-activity-simulator) — _2025-06-03_
+- [ojasshukla01/prompt-hub](https://github.com/ojasshukla01/prompt-hub) — _2025-05-26_
+<!-- profile_repos ends -->
+
+<sub>Automation: <code>.github/workflows/update-profile-readme.yml</code> · <code>scripts/build_readme.py</code>. Pattern: <a href="https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/">Simon Willison</a>.</sub>
+
+---
+
+## Flagship repositories
+
+Representative open-source work. Contributions welcome where repositories are licensed and document how to contribute.
+
+| Project | Summary | Technologies |
+|---------|---------|--------------|
+| [**OpenCompliance ESG**](https://github.com/ojasshukla01/opencompliance-esg) | ESG analytics, PDF reporting, data quality | Streamlit, FastAPI, DuckDB, Python |
+| [**Data Forge**](https://github.com/ojasshukla01/data-forge) | Time-aware synthetic data; DDL and OpenAPI; CDC-style exports | Python, FastAPI, Next.js, DuckDB, warehouses |
+| [**LLM Learning Path Generator**](https://github.com/ojasshukla01/llm-learning-path-generator) | LLM-assisted learning paths and gap analysis | Streamlit, LangChain, DuckDB, OpenAI |
+| [**token-doctor**](https://github.com/ojasshukla01/token-doctor) | Token lifecycle debugging, changelogs, sunsets, ICS — local-first | Python, SQLite, CLI |
+| [**SQLSense**](https://github.com/ojasshukla01/sqlsense) | Audited, constrained SQL over MCP for software agents | Python, MCP |
+| [**Health Analytics BI Dashboard**](https://github.com/ojasshukla01/health-analytics-bi-dashboard) | Healthcare KPIs and business intelligence patterns | Power BI, analytics |
 
 ---
 
 ## Data Forge platform model
 
-[**Data Forge**](https://github.com/ojasshukla01/data-forge) is a **time-aware synthetic data** platform: you describe **schemas and rules** (DDL, JSON Schema, OpenAPI, domain packs), pick **generation modes** (snapshot, incremental, CDC-style, bronze / silver / gold), and get **privacy-safe, relational test data** out to files and warehouses—with a **Next.js** UI and **Python / FastAPI** API. The diagram is a simplified view of how those pieces connect (not every adapter is shown):
+[**Data Forge**](https://github.com/ojasshukla01/data-forge) is a **time-aware synthetic data** platform: define **schemas and rules** (DDL, JSON Schema, OpenAPI, domain packs), select **generation modes** (snapshot, incremental, CDC-style, medallion layers), and export **privacy-conscious, relational test data** to files and warehouses, with a **Next.js** front end and **Python / FastAPI** API. The diagram below is a simplified architecture view (not all adapters are shown).
 
 ```mermaid
 flowchart TB
@@ -161,156 +176,115 @@ flowchart TB
 
 ---
 
-## Tooling
-
-**Skill snapshot** (generated SVG — not every tool below appears on [skillicons.dev](https://skillicons.dev)):
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=py,gcp,aws,docker,kubernetes,terraform,kafka,postgres,nextjs,react,tailwind,git,githubactions,fastapi&perline=7" alt="Python GCP AWS Docker Kubernetes Terraform Kafka Postgres Next.js React Tailwind Git GitHub Actions FastAPI" />
-
-</div>
+## Technical stack
 
 | Domain | Technologies |
 |--------|----------------|
-| **Languages** | [Python](https://python.org), SQL, [JavaScript](https://developer.mozilla.org/docs/Web/JavaScript), [R](https://www.r-project.org), [Scala](https://scala-lang.org) |
-| **Cloud** | [GCP](https://cloud.google.com), [AWS](https://aws.amazon.com), [Azure](https://azure.microsoft.com), [Snowflake](https://www.snowflake.com) |
-| **Data & streaming** | [Spark](https://spark.apache.org), [Databricks](https://www.databricks.com), [BigQuery](https://cloud.google.com/bigquery), [Kafka](https://kafka.apache.org), [Airflow](https://airflow.apache.org), [dbt](https://www.getdbt.com), [DuckDB](https://duckdb.org) |
+| **Languages** | [Python](https://www.python.org), SQL, [JavaScript](https://developer.mozilla.org/docs/Web/JavaScript), [R](https://www.r-project.org), [Scala](https://scala-lang.org) |
+| **Cloud** | [Google Cloud](https://cloud.google.com), [AWS](https://aws.amazon.com), [Microsoft Azure](https://azure.microsoft.com), [Snowflake](https://www.snowflake.com) |
+| **Data and streaming** | [Apache Spark](https://spark.apache.org), [Databricks](https://www.databricks.com), [BigQuery](https://cloud.google.com/bigquery), [Apache Kafka](https://kafka.apache.org), [Apache Airflow](https://airflow.apache.org), [dbt](https://www.getdbt.com), [DuckDB](https://duckdb.org) |
 | **Delivery** | [Docker](https://www.docker.com), [Terraform](https://www.terraform.io), [GitHub Actions](https://github.com/features/actions), [Kubernetes](https://kubernetes.io) |
-
----
-
-## Flagship repositories
-
-Pinned and highest-signal OSS (issues / PRs welcome where a repo is licensed and documents contributions):
-
-| Project | What it is | Stack |
-|---------|------------|-------|
-| 🌿 [**OpenCompliance ESG**](https://github.com/ojasshukla01/opencompliance-esg) | ESG analytics, PDF reporting, DQ | Streamlit, FastAPI, DuckDB, Python |
-| 📊 [**Data Forge**](https://github.com/ojasshukla01/data-forge) | Time-aware synthetic data; DDL/OpenAPI; CDC-style exports | Python, FastAPI, Next.js, DuckDB, warehouses |
-| 🧠 [**LLM Learning Path Generator**](https://github.com/ojasshukla01/llm-learning-path-generator) | LLM-driven learning paths & gaps | Streamlit, LangChain, DuckDB, OpenAI |
-| 🔑 [**token-doctor**](https://github.com/ojasshukla01/token-doctor) | Token debug, changelogs, sunsets, ICS — local-first | Python, SQLite, CLI |
-| 🛡️ [**SQLSense**](https://github.com/ojasshukla01/sqlsense) | Safe audited SQL over MCP for agents | Python, MCP |
-| 🏥 [**Health Analytics BI Dashboard**](https://github.com/ojasshukla01/health-analytics-bi-dashboard) | Healthcare KPIs & BI patterns | Power BI, analytics |
 
 ---
 
 ## Repository index
 
-### Data platforms & pipelines
+### Data platforms and pipelines
 
-- 🏭 [**Lakehouse360**](https://github.com/ojasshukla01/lakehouse360) — Ingest, transform, DQ; Streamlit, DuckDB, dbt  
-- 📈 [**Data Engineering Case Studies**](https://github.com/ojasshukla01/data-engineering-case-studies) — Batch/streaming, BigQuery, Airflow, dbt  
-- 🗺️ [**auto-map-au**](https://github.com/ojasshukla01/auto-map-au) (AutoMap360) — Suburb→region geospatial (AU, NZ, IN), Streamlit QA  
-- 📦 [**data-pipeline**](https://github.com/ojasshukla01/data-pipeline) — Pipeline reference project  
-- ▶️ [**bharatstream-sql**](https://github.com/ojasshukla01/bharatstream-sql) — SQL + analytics backend  
-- 🎬 [**streaming-platform**](https://github.com/ojasshukla01/streaming-platform) — Video stack with React  
+- [**Lakehouse360**](https://github.com/ojasshukla01/lakehouse360) — Ingest, transform, data quality; Streamlit, DuckDB, dbt  
+- [**Data Engineering Case Studies**](https://github.com/ojasshukla01/data-engineering-case-studies) — Batch and streaming patterns, BigQuery, Airflow, dbt  
+- [**auto-map-au**](https://github.com/ojasshukla01/auto-map-au) (AutoMap360) — Suburb-to-region geospatial reference (AU, NZ, IN), Streamlit QA  
+- [**data-pipeline**](https://github.com/ojasshukla01/data-pipeline) — Pipeline reference implementation  
+- [**bharatstream-sql**](https://github.com/ojasshukla01/bharatstream-sql) — SQL and analytics backend  
+- [**streaming-platform**](https://github.com/ojasshukla01/streaming-platform) — Video stack with React  
 
-### Apps, tooling & experiments
+### Applications, tooling, and experiments
 
-- 💬 [**prompt-hub**](https://github.com/ojasshukla01/prompt-hub) — Prompt sharing / management  
-- 🔧 [**git-activity-simulator**](https://github.com/ojasshukla01/git-activity-simulator) — CLI for synthetic Git activity (demos / learning)  
-- 🌐 [**ojas-portfolio**](https://github.com/ojasshukla01/ojas-portfolio) — Portfolio source  
-- 📄 [**sop_generator_app**](https://github.com/ojasshukla01/sop_generator_app) · [**sop-generator-frontend**](https://github.com/ojasshukla01/sop-generator-frontend) — SOP tooling  
-- 🔒 [**web-bases-analysis-intrusion-detection-system**](https://github.com/ojasshukla01/web-bases-analysis-intrusion-detection-system) — IDS analysis  
-- 🧪 [**sql-injection**](https://github.com/ojasshukla01/sql-injection) — Lab (C#)  
-- 🧲 [**Torrent_automate**](https://github.com/ojasshukla01/Torrent_automate) — Automation utilities  
-- 🤗 [**hug-lite**](https://github.com/ojasshukla01/hug-lite) — Small HF-related experiment  
+- [**prompt-hub**](https://github.com/ojasshukla01/prompt-hub) — Prompt management and sharing  
+- [**git-activity-simulator**](https://github.com/ojasshukla01/git-activity-simulator) — CLI for synthetic Git activity (demonstrations and learning)  
+- [**ojas-portfolio**](https://github.com/ojasshukla01/ojas-portfolio) — Portfolio site source  
+- [**sop_generator_app**](https://github.com/ojasshukla01/sop_generator_app) · [**sop-generator-frontend**](https://github.com/ojasshukla01/sop-generator-frontend) — Statement-of-purpose tooling  
+- [**web-bases-analysis-intrusion-detection-system**](https://github.com/ojasshukla01/web-bases-analysis-intrusion-detection-system) — Network intrusion detection analysis  
+- [**sql-injection**](https://github.com/ojasshukla01/sql-injection) — Security lab (C#)  
+- [**Torrent_automate**](https://github.com/ojasshukla01/Torrent_automate) — Automation utilities  
+- [**hug-lite**](https://github.com/ojasshukla01/hug-lite) — Lightweight Hugging Face–related experiment  
 
 ---
 
 ## Online presence
 
-| Channel | Link | Notes |
-|---------|------|--------|
-| 🌐 Portfolio | [Vercel — portfolio](https://portfolio-ojas-shuklas-projects-7dc8ad06.vercel.app/) | Case studies, projects, experience |
-| ✍️ Writing | [Medium @ojasshukla01](https://medium.com/@ojasshukla01) | Data engineering & practice posts |
+| Channel | Link | Description |
+|---------|------|-------------|
+| Portfolio | [Professional site (Vercel)](https://portfolio-ojas-shuklas-projects-7dc8ad06.vercel.app/) | Case studies, projects, experience |
+| Writing | [Medium](https://medium.com/@ojasshukla01) | Data engineering and practice |
 
-Stack for the site: `React` · `Next.js` · `Tailwind CSS` · `Vercel`
-
----
-
-## Activity
-
-<div align="center">
-
-<a href="https://github.com/ojasshukla01"><img src="https://github-readme-stats.vercel.app/api?username=ojasshukla01&show_icons=true&theme=tokyonight&hide_border=true&custom_title=GitHub%20statistics" alt="GitHub statistics" /></a>
-<a href="https://github.com/ojasshukla01"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojasshukla01&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&custom_title=Most%20used%20languages" alt="Top languages" /></a>
-
-<br /><br />
-
-<a href="https://github.com/ojasshukla01"><img src="https://streak-stats.demolab.com/?user=ojasshukla01&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="Contribution streak" /></a>
-
-<br /><br />
-
-<a href="https://github.com/ojasshukla01"><img src="https://github-readme-activity-graph.vercel.app/graph?username=ojasshukla01&theme=tokyo-night&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true&custom_title=Contribution%20timeline%20%28last%20year%29" alt="Contribution activity graph" /></a>
-
-</div>
-
----
-
-## Extras
-
-Only **widgets that stay up without extra setup** are embedded here. Third-party trophy/snake URLs were removed because the public trophy host is often **down (503)** and `raw.githubusercontent.com` snake files **do not load** for most viewers when this repo is **private**.
-
-### Music
-
-<div align="center">
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2500&pause=800&color=1DB954&center=true&vCenter=true&width=520&lines=%F0%9F%8E%A7+Deep+work+playlists;%F0%9F%8E%B5+Lo-fi+%2B+instrumentals;%F0%9F%8E%B8+Synth+%2F+ambient+debug+mode" alt="Music themed typing lines" />
-
-**[Spotify](https://open.spotify.com/)** · *[Live “now playing” via API](https://github.com/novatorem/novatorem) (optional self-host)*
-
-</div>
-
-### Contribution snake (workflow only)
-
-SVGs can be generated on branch **`output`** by [`.github/workflows/snake.yml`](.github/workflows/snake.yml) ([Platane/snk](https://github.com/Platane/snk)). Run **Actions → Generate contribution snake → Run workflow** once. To **show** the animation on your profile README, the repo usually needs to be **public** so the SVG URL is fetchable; then you can add a `<picture>` block back pointing at `raw.githubusercontent.com/.../output/...`.
+Site stack: React, Next.js, Tailwind CSS, Vercel.
 
 ---
 
 ## Operating principles
 
-- 💡 **Innovation** — Prefer small, composable designs that teams can evolve.  
-- ⭐ **Excellence** — Tests, contracts, and observability where it matters.  
-- 🤝 **Collaboration** — Clear docs and kind review; OSS when it helps others.  
-- 📈 **Growth** — Streaming systems, lakehouses, and agent-era data safety.  
+- **Engineering discipline** — Prefer composable designs, explicit contracts, and observability where operational risk warrants it.  
+- **Quality** — Automated tests and documentation aligned to system boundaries and user-facing behavior.  
+- **Collaboration** — Clear technical writing, constructive code review, and open-source releases when they benefit others.  
+- **Continuous learning** — Lakehouse platforms, streaming systems, and safe data access in agent-assisted workflows.  
 
-**Outside the terminal:** 🏊 swimming · 🎮 Dota 2 · 📚 LLMs & data tech  
+**Additional interests:** Competitive swimming, strategy games, large language models and data systems literature.
 
 ---
 
-## Contact and availability
+## Contact
 
-Open to **senior data engineering** roles, **consulting**, **technical writing**, and **mentoring**. **Sydney, Australia** 🇦🇺
+Open to **senior data engineering** roles, **consulting**, **technical writing**, and **mentoring**. Based in **Sydney, Australia**.
 
-<div align="center">
+**Links:** [same row at the top of this profile](#quick-links) (Portfolio, LinkedIn, Medium, Repositories, Email).
 
-<a href="mailto:ojasshukla01@gmail.com?subject=Data%20engineering%20%E2%80%94%20hello"><img src="https://img.shields.io/badge/email-ojasshukla01@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://www.linkedin.com/in/ojasshukla01" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-in%2Fojasshukla01-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://portfolio-ojas-shuklas-projects-7dc8ad06.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-site-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-<a href="https://medium.com/@ojasshukla01" target="_blank"><img src="https://img.shields.io/badge/Medium-@ojasshukla01-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
-
-<br /><br />
-
-<a href="https://buymeacoffee.com/ojasshuklav" target="_blank"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-support-ea4aaa?style=flat-square&logo=buy-me-a-coffee&logoColor=white" alt="Buy me a coffee" /></a>
-
-</div>
+Optional support: [Buy Me a Coffee](https://buymeacoffee.com/ojasshuklav).
 
 ---
 
 <div align="center">
-
-> *Excellence in data engineering is not just about building systems — it is about architecting solutions that scale, adapt, and deliver measurable business value.*
 
 **Ojas Shukla** · Senior Data Engineer
 
-<br />
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=15&duration=3800&pause=1800&color=58A6FF&center=true&vCenter=true&width=640&lines=Pipelines+as+products;Docs+as+APIs;Thanks+for+stopping+by" alt="Footer typing" />
-
-<br /><br />
-
-<sub>Third-party widgets retain their own licenses; attribute upstream projects if you reuse patterns from the manifest above.</sub>
+<sub>This profile uses GitHub Flavored Markdown and native Mermaid diagrams only. The <a href="#recent-activity">Recent activity</a> section is plain markdown refreshed by a repository workflow (no third-party statistics or counter images).</sub>
 
 </div>
+
+---
+
+## Document notes
+
+Technical reference for this file: GitHub [**profile README**](https://docs.github.com/en/account-and-profile/how-tos/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) for `ojasshukla01/ojasshukla01`. Rendered with **GFM** and **Mermaid**.
+
+<details>
+<summary><strong>Format, manifest, rendering</strong></summary>
+
+| Component | Role | Reference |
+|-----------|------|-----------|
+| Diagrams | Architecture | [Mermaid on GitHub](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/) |
+| Markup | Structure | [GitHub Flavored Markdown](https://github.github.com/gfm/) |
+| Activity lists | GraphQL (releases, PRs, stars, repos) + Medium RSS → marker blocks | [`scripts/build_readme.py`](scripts/build_readme.py), [workflow](.github/workflows/update-profile-readme.yml); pattern from [Simon Willison](https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/) |
+
+**Local refresh:** `pip install -r requirements.txt`. `python scripts/build_readme.py --dry-run` loads **Medium** without a token; GitHub sections need a token. Full run: PowerShell `$env:GITHUB_TOKEN = (gh auth token); python scripts/build_readme.py`, or a PAT with scope to read your data via the GraphQL API. Optional: `MEDIUM_FEED_URL` to override the Medium RSS URL.
+
+If you adapt this layout, replace `ojasshukla01` in URLs and cite upstream tools you embed.
+
+```json
+{
+  "kind": "github-profile-readme",
+  "repository": "ojasshukla01/ojasshukla01",
+  "markdown": "GitHub-Flavored-Markdown",
+  "dynamic_assets": [],
+  "static_semantics": ["mermaid", "tables", "details-summary", "fenced-code-blocks"]
+}
+```
+
+```mermaid
+flowchart LR
+  U[Reader] --> GH[GitHub GFM renderer]
+  GH --> T[Tables and prose]
+  GH --> M[Mermaid engine]
+```
+
+</details>
