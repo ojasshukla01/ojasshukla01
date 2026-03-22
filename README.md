@@ -1,10 +1,10 @@
 <div align="center">
 
 <pre>
-┌──────────────────────────────────────────────┐
-│  ojasshukla01 / profile · README.md · main    │
-│  role: senior_data_engineer · focus: data+oss │
-└──────────────────────────────────────────────┘
+┌────────────────────────────────────────────────┐
+│ ojasshukla01/ojasshukla01 · PRIVATE · README  │
+│ senior_data_engineer · data + OSS              │
+└────────────────────────────────────────────────┘
 </pre>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=820&lines=Ojas+Shukla;Senior+Data+Engineer;Streaming+%26+batch+%7C+Lakehouse+%7C+Governance;Open+source+%E2%80%94+synthetic+data+%7C+agent-safe+SQL+%7C+dev+tooling" alt="Animated headline" />
@@ -20,9 +20,11 @@
 <br /><br />
 
 [![Profile views](https://komarev.com/ghpvc/?username=ojasshukla01&label=profile%20views&color=0e75b6&style=flat-square)](https://github.com/ojasshukla01)
-[![README last commit](https://img.shields.io/github/last-commit/ojasshukla01/ojasshukla01?label=README%20updated&logo=github&color=1a1b27&style=flat-square)](https://github.com/ojasshukla01/ojasshukla01/commits/main)
 
 </div>
+
+> **Repository visibility:** This repo (`ojasshukla01/ojasshukla01`) is **private**. Only you (and collaborators you invite) can browse its files on GitHub.  
+> **Profile README rule:** GitHub only shows a profile `README.md` on your **public** profile when the **username-named repository is public**. If this repo stays private, this README **will not appear** on [your public profile](https://github.com/ojasshukla01) for other users — see [Managing your profile README](https://docs.github.com/en/account-and-profile/how-tos/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme). To keep the README **hidden** but still use this file for yourself or collaborators, leaving it private is correct. To **show** it to everyone, make this repository **public** (your other projects can stay private).
 
 ---
 
@@ -55,7 +57,9 @@ orchestration = airflow, cicd, terraform
 
 ## README specification
 
-This file lives in the [**profile repository**](https://docs.github.com/en/account-and-profile/how-tos/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) [`ojasshukla01/ojasshukla01`](https://github.com/ojasshukla01/ojasshukla01). It is **not** a closed template: it is **GFM** + **remote SVGs** + **Mermaid**. Below is a **component manifest** you can treat as documentation if you fork the layout.
+This file lives in the [**profile repository**](https://docs.github.com/en/account-and-profile/how-tos/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) `ojasshukla01/ojasshukla01`, which is **private**: there is **no public “View code”** link for strangers, and **badges that call the GitHub API for this repo** (for example “last commit” on *this* repo) will **not** work for anonymous viewers without your own Shields token.
+
+Technically it is plain **GFM** + **remote SVGs** + **Mermaid**. The **component manifest** below documents how that stack fits together (useful for you or anyone with repo access; it is **not** an invitation to clone this private repo from the open internet).
 
 <details>
 <summary><strong>Human-readable dependency table</strong></summary>
@@ -73,7 +77,7 @@ This file lives in the [**profile repository**](https://docs.github.com/en/accou
 
 **Emoji-only section markers** below avoid brittle hotlinked icon PNGs.
 
-**Fork checklist:** replace `ojasshukla01` in URLs; self-host **github-readme-stats** if you need private repos or `include_all_commits`; keep license/attribution on upstream projects.
+**If you copy ideas into your own (e.g. public) profile repo:** replace `ojasshukla01` in URLs; self-host **github-readme-stats** if you need private-repo metrics or `include_all_commits`; keep attribution to upstream widget projects.
 
 </details>
 
@@ -81,6 +85,9 @@ This file lives in the [**profile repository**](https://docs.github.com/en/accou
 {
   "kind": "github-profile-readme",
   "repository": "ojasshukla01/ojasshukla01",
+  "visibility": "private",
+  "public_profile_readme": false,
+  "note": "GitHub shows profile README only when username repo is public; see GitHub docs.",
   "markdown": "GitHub-Flavored-Markdown",
   "dynamic_assets": [
     { "id": "typing-hero", "format": "svg", "host": "readme-typing-svg.herokuapp.com" },
@@ -274,10 +281,10 @@ Open to **senior data engineering** roles, **consulting**, **technical writing**
 
 <br />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=15&duration=3800&pause=1800&color=58A6FF&center=true&vCenter=true&width=640&lines=Pipelines+as+products;Docs+as+APIs;Thanks+for+reading+the+source" alt="Footer typing" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=15&duration=3800&pause=1800&color=58A6FF&center=true&vCenter=true&width=640&lines=Pipelines+as+products;Docs+as+APIs;Private+profile+repo+%E2%80%94+share+via+portfolio+%2F+OSS" alt="Footer typing" />
 
 <br /><br />
 
-<sub>If you reuse this layout: swap identifiers in URLs, keep attributions to linked widget authors, and note their licenses separately.</sub>
+<sub>Layout reference for maintainers with repo access. Widgets are third-party; this repository’s source is not public unless you change visibility. See GitHub docs for profile README + visibility.</sub>
 
 </div>
