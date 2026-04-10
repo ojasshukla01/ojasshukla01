@@ -224,7 +224,7 @@ flowchart TB
 
 | Channel | Link | Description |
 |---------|------|-------------|
-| Portfolio | [Professional site (Vercel)](https://www.ojasdata.com/) | Case studies, projects, experience |
+| Portfolio | [Professional Portfolio](https://www.ojasdata.com/) | Case studies, projects, experience |
 | Writing | [Medium](https://medium.com/@ojasshukla01) | Data engineering and practice |
 
 Site stack: React, Next.js, Tailwind CSS, Vercel.
