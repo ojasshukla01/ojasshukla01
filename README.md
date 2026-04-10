@@ -7,7 +7,7 @@
 <p>Streaming and batch analytics, lakehouse architecture, data governance, synthetic data, and agent-safe SQL.</p>
 
 <p align="center">
-  <a href="https://portfolio-ojas-shuklas-projects-7dc8ad06.vercel.app/">Portfolio</a>
+  <a href="https://www.ojasdata.com/">Portfolio</a>
   &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/ojasshukla01">LinkedIn</a>
   &nbsp;·&nbsp;
