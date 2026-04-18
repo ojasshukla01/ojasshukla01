@@ -117,7 +117,6 @@ Tools and references I am tracking (public stars). Repositories already shown un
 <!-- profile_starred starts -->
 - [duckdb/duckdb](https://github.com/duckdb/duckdb) — _2026-03-03 · starred_
 - [DataExpert-io/data-engineer-handbook](https://github.com/DataExpert-io/data-engineer-handbook) — _2026-03-03 · starred_
-- [cloudcommunity/Free-Certifications](https://github.com/cloudcommunity/Free-Certifications) — _2026-03-03 · starred_
 <!-- profile_starred ends -->
 
 </details>
