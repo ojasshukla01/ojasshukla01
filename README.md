@@ -124,6 +124,7 @@ Tools and references I am tracking (public stars). Repositories already shown un
 ### Recently updated public repositories
 
 <!-- profile_repos starts -->
+- [ojasshukla01/housing-doctor](https://github.com/ojasshukla01/housing-doctor) — _2026-05-05_
 - [ojasshukla01/ready-up](https://github.com/ojasshukla01/ready-up) — _2026-04-16_
 - [ojasshukla01/data-forge](https://github.com/ojasshukla01/data-forge) — _2026-04-13_
 - [ojasshukla01/token-doctor](https://github.com/ojasshukla01/token-doctor) — _2026-03-05_
@@ -131,7 +132,6 @@ Tools and references I am tracking (public stars). Repositories already shown un
 - [ojasshukla01/Torrent_automate](https://github.com/ojasshukla01/Torrent_automate) — _2026-02-28_
 - [ojasshukla01/data-pipeline](https://github.com/ojasshukla01/data-pipeline) — _2026-01-31_
 - [ojasshukla01/llm-learning-path-generator](https://github.com/ojasshukla01/llm-learning-path-generator) — _2025-10-11_
-- [ojasshukla01/hug-lite](https://github.com/ojasshukla01/hug-lite) — _2025-07-15_
 <!-- profile_repos ends -->
 
 ---
